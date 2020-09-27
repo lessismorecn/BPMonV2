@@ -1,0 +1,85 @@
+std_abs.h:70:3:constexpr double std::abs(double)	16	static
+new:168:14:void* operator new(std::size_t, void*)	16	static
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+complex:1209:26:constexpr std::complex<double>::complex(double, double)	32	static
+complex:1229:7:constexpr double std::complex<double>::real() const	16	static
+complex:1233:7:constexpr double std::complex<double>::imag() const	16	static
+Types.h:113:8:bool Dsp::PoleZeroPair::isSinglePole() const	40	static
+Biquad.h:73:10:double Dsp::BiquadBase::getA0() const	16	static
+Biquad.h:74:10:double Dsp::BiquadBase::getA1() const	24	static
+Biquad.h:75:10:double Dsp::BiquadBase::getA2() const	24	static
+Biquad.h:76:10:double Dsp::BiquadBase::getB0() const	24	static
+Biquad.h:77:10:double Dsp::BiquadBase::getB1() const	24	static
+Biquad.h:78:10:double Dsp::BiquadBase::getB2() const	24	static
+Biquad.h:103:8:void Dsp::BiquadBase::setPoleZeroPair(const Dsp::PoleZeroPair&)	16	static
+Biquad.h:223:8:void Dsp::Biquad::setPoleZeroPair(const Dsp::PoleZeroPair&)	16	static
+Biquad.h:228:8:void Dsp::Biquad::applyScale(double)	24	static
+Layout.h:79:7:int Dsp::LayoutBase::getNumPoles() const	16	static
+Layout.h:117:23:const Dsp::PoleZeroPair& Dsp::LayoutBase::getPair(int) const	16	static
+Layout.h:123:23:const Dsp::PoleZeroPair& Dsp::LayoutBase::operator[](int) const	16	static
+Layout.h:128:10:double Dsp::LayoutBase::getNormalW() const	16	static
+Layout.h:133:10:double Dsp::LayoutBase::getNormalGain() const	16	static
+Cascade.cpp:41:1:Dsp::Cascade::Cascade()	16	static
+Cascade.cpp:48:6:void Dsp::Cascade::setCascadeStorage(const Dsp::Cascade::Storage&)	16	static
+Cascade.cpp:55:11:Dsp::complex_t Dsp::Cascade::response(double) const	176	static
+Cascade.cpp:79:27:std::vector<Dsp::PoleZeroPair> Dsp::Cascade::getPoleZeros() const	96	static
+Cascade.cpp:95:6:void Dsp::Cascade::applyScale(double)	24	static
+Cascade.cpp:103:6:void Dsp::Cascade::setLayout(const Dsp::LayoutBase&)	64	static
+complex:463:5:constexpr bool std::operator==(const std::complex<_Tp>&, const _Tp&) [with _Tp = double]	24	static
+complex:671:5:std::complex<_Tp> std::polar(const _Tp&, const _Tp&) [with _Tp = double]	48	static
+MathSupplement.h:78:25:std::complex<_Tp> Dsp::addmul(const std::complex<_Tp>&, Ty, const std::complex<_Up>&) [with Ty = double; To = double]	64	static
+complex:1323:9:std::complex<double>& std::complex<double>::operator*=(const std::complex<_Tp>&) [with _Tp = double]	56	static
+complex:416:5:std::complex<_Tp> std::operator/(const std::complex<_Tp>&, const std::complex<_Tp>&) [with _Tp = double]	40	static
+stl_vector.h:259:7:std::vector<_Tp, _Alloc>::vector() [with _Tp = Dsp::PoleZeroPair; _Alloc = std::allocator<Dsp::PoleZeroPair>]	16	static
+vector.tcc:65:5:void std::vector<_Tp, _Alloc>::reserve(std::vector<_Tp, _Alloc>::size_type) [with _Tp = Dsp::PoleZeroPair; _Alloc = std::allocator<Dsp::PoleZeroPair>]	32	static
+stl_vector.h:939:7:void std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = Dsp::PoleZeroPair; _Alloc = std::allocator<Dsp::PoleZeroPair>]	16	static
+complex:603:5:_Tp std::abs(const std::complex<_Tp>&) [with _Tp = double]	16	static
+complex:1334:9:std::complex<double>& std::complex<double>::operator/=(const std::complex<_Tp>&) [with _Tp = double]	56	static
+stl_vector.h:126:7:std::_Vector_base<_Tp, _Alloc>::_Vector_base() [with _Tp = Dsp::PoleZeroPair; _Alloc = std::allocator<Dsp::PoleZeroPair>]	16	static
+stl_vector.h:115:7:std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type& std::_Vector_base<_Tp, _Alloc>::_M_get_Tp_allocator() [with _Tp = Dsp::PoleZeroPair; _Alloc = std::allocator<Dsp::PoleZeroPair>]	16	static
+stl_construct.h:203:5:void std::_Destroy(_ForwardIterator, _ForwardIterator, std::allocator<_T2>&) [with _ForwardIterator = Dsp::PoleZeroPair*; _Tp = Dsp::PoleZeroPair]	24	static
+stl_vector.h:675:7:std::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::max_size() const [with _Tp = Dsp::PoleZeroPair; _Alloc = std::allocator<Dsp::PoleZeroPair>]	16	static
+stl_vector.h:750:7:std::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::capacity() const [with _Tp = Dsp::PoleZeroPair; _Alloc = std::allocator<Dsp::PoleZeroPair>]	16	static
+stl_vector.h:670:7:std::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::size() const [with _Tp = Dsp::PoleZeroPair; _Alloc = std::allocator<Dsp::PoleZeroPair>]	16	static
+stl_iterator.h:1221:5:_ReturnType std::__make_move_if_noexcept_iterator(_Tp*) [with _Tp = Dsp::PoleZeroPair; _ReturnType = std::move_iterator<Dsp::PoleZeroPair*>]	24	static
+stl_vector.h:1257:2:std::vector<_Tp, _Alloc>::pointer std::vector<_Tp, _Alloc>::_M_allocate_and_copy(std::vector<_Tp, _Alloc>::size_type, _ForwardIterator, _ForwardIterator) [with _ForwardIterator = std::move_iterator<Dsp::PoleZeroPair*>; _Tp = Dsp::PoleZeroPair; _Alloc = std::allocator<Dsp::PoleZeroPair>]	32	static
+stl_vector.h:176:7:void std::_Vector_base<_Tp, _Alloc>::_M_deallocate(std::_Vector_base<_Tp, _Alloc>::pointer, std::size_t) [with _Tp = Dsp::PoleZeroPair; _Alloc = std::allocator<Dsp::PoleZeroPair>]	24	static
+move.h:73:5:constexpr _Tp&& std::forward(typename std::remove_reference<_From>::type&) [with _Tp = const Dsp::PoleZeroPair&]	16	static
+alloc_traits.h:474:2:) [with _Up = Dsp::PoleZeroPair; _Args = {const Dsp::PoleZeroPair&}; _Tp = Dsp::PoleZeroPair]	24	static
+stl_vector.h:581:7:std::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::end() [with _Tp = Dsp::PoleZeroPair; _Alloc = std::allocator<Dsp::PoleZeroPair>]	24	static
+vector.tcc:394:7:) [with _Args = {const Dsp::PoleZeroPair&}; _Tp = Dsp::PoleZeroPair; _Alloc = std::allocator<Dsp::PoleZeroPair>]	56	static
+complex:574:5:_Tp std::__complex_abs(const std::complex<_Tp>&) [with _Tp = double]	64	static
+stl_vector.h:88:2:std::_Vector_base<_Tp, _Alloc>::_Vector_impl::_Vector_impl() [with _Tp = Dsp::PoleZeroPair; _Alloc = std::allocator<Dsp::PoleZeroPair>]	16	static
+stl_construct.h:127:5:void std::_Destroy(_ForwardIterator, _ForwardIterator) [with _ForwardIterator = Dsp::PoleZeroPair*]	16	static
+alloc_traits.h:495:7:static std::allocator_traits<std::allocator<_CharT> >::size_type std::allocator_traits<std::allocator<_CharT> >::max_size(const allocator_type&) [with _Tp = Dsp::PoleZeroPair]	16	static
+stl_vector.h:119:7:const _Tp_alloc_type& std::_Vector_base<_Tp, _Alloc>::_M_get_Tp_allocator() const [with _Tp = Dsp::PoleZeroPair; _Alloc = std::allocator<Dsp::PoleZeroPair>]	16	static
+stl_iterator.h:1036:7:std::move_iterator<_Iterator>::move_iterator(std::move_iterator<_Iterator>::iterator_type) [with _Iterator = Dsp::PoleZeroPair*]	16	static
+stl_vector.h:169:7:std::_Vector_base<_Tp, _Alloc>::pointer std::_Vector_base<_Tp, _Alloc>::_M_allocate(std::size_t) [with _Tp = Dsp::PoleZeroPair; _Alloc = std::allocator<Dsp::PoleZeroPair>]	16	static
+stl_uninitialized.h:287:5:_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = std::move_iterator<Dsp::PoleZeroPair*>; _ForwardIterator = Dsp::PoleZeroPair*; _Tp = Dsp::PoleZeroPair]	24	static
+alloc_traits.h:461:7:static void std::allocator_traits<std::allocator<_CharT> >::deallocate(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, std::allocator_traits<std::allocator<_CharT> >::pointer, std::allocator_traits<std::allocator<_CharT> >::size_type) [with _Tp = Dsp::PoleZeroPair]	24	static
+new_allocator.h:135:2:) [with _Up = Dsp::PoleZeroPair; _Args = {const Dsp::PoleZeroPair&}; _Tp = Dsp::PoleZeroPair]	32	static
+stl_iterator.h:779:7:__gnu_cxx::__normal_iterator<_Iterator, _Container>::__normal_iterator(const _Iterator&) [with _Iterator = Dsp::PoleZeroPair*; _Container = std::vector<Dsp::PoleZeroPair>]	16	static
+stl_vector.h:1497:7:std::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::_M_check_len(std::vector<_Tp, _Alloc>::size_type, const char*) const [with _Tp = Dsp::PoleZeroPair; _Alloc = std::allocator<Dsp::PoleZeroPair>]	40	static
+stl_vector.h:563:7:std::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::begin() [with _Tp = Dsp::PoleZeroPair; _Alloc = std::allocator<Dsp::PoleZeroPair>]	24	static
+stl_iterator.h:962:5:typename __gnu_cxx::__normal_iterator<_Iterator, _Container>::difference_type __gnu_cxx::operator-(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&) [with _Iterator = Dsp::PoleZeroPair*; _Container = std::vector<Dsp::PoleZeroPair>]	24	static
+stl_iterator.h:844:7:const _Iterator& __gnu_cxx::__normal_iterator<_Iterator, _Container>::base() const [with _Iterator = Dsp::PoleZeroPair*; _Container = std::vector<Dsp::PoleZeroPair>]	16	static
+stl_uninitialized.h:305:5:_ForwardIterator std::__uninitialized_move_if_noexcept_a(_InputIterator, _InputIterator, _ForwardIterator, _Allocator&) [with _InputIterator = Dsp::PoleZeroPair*; _ForwardIterator = Dsp::PoleZeroPair*; _Allocator = std::allocator<Dsp::PoleZeroPair>]	32	static
+stl_algobase.h:219:5:const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = double]	24	static
+allocator.h:131:7:std::allocator< <template-parameter-1-1> >::allocator() [with _Tp = Dsp::PoleZeroPair]	16	static
+stl_construct.h:117:9:static void std::_Destroy_aux<true>::__destroy(_ForwardIterator, _ForwardIterator) [with _ForwardIterator = Dsp::PoleZeroPair*]	16	static
+new_allocator.h:129:7:__gnu_cxx::new_allocator<_Tp>::size_type __gnu_cxx::new_allocator<_Tp>::max_size() const [with _Tp = Dsp::PoleZeroPair]	16	static
+alloc_traits.h:435:7:static _Tp* std::allocator_traits<std::allocator<_CharT> >::allocate(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, std::allocator_traits<std::allocator<_CharT> >::size_type) [with _Tp = Dsp::PoleZeroPair]	16	static
+stl_uninitialized.h:115:5:_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = std::move_iterator<Dsp::PoleZeroPair*>; _ForwardIterator = Dsp::PoleZeroPair*]	32	static
+new_allocator.h:116:7:void __gnu_cxx::new_allocator<_Tp>::deallocate(__gnu_cxx::new_allocator<_Tp>::pointer, __gnu_cxx::new_allocator<_Tp>::size_type) [with _Tp = Dsp::PoleZeroPair]	24	static
+stl_algobase.h:219:5:const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = unsigned int]	16	static
+new_allocator.h:79:7:__gnu_cxx::new_allocator<_Tp>::new_allocator() [with _Tp = Dsp::PoleZeroPair]	16	static
+new_allocator.h:99:7:_Tp* __gnu_cxx::new_allocator<_Tp>::allocate(__gnu_cxx::new_allocator<_Tp>::size_type, const void*) [with _Tp = Dsp::PoleZeroPair]	24	static
+stl_uninitialized.h:76:9:static _ForwardIterator std::__uninitialized_copy<_TrivialValueTypes>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = std::move_iterator<Dsp::PoleZeroPair*>; _ForwardIterator = Dsp::PoleZeroPair*; bool _TrivialValueTypes = false]	40	static
+stl_iterator.h:1136:5:bool std::operator!=(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&) [with _Iterator = Dsp::PoleZeroPair*]	16	static
+stl_iterator.h:1057:7:std::move_iterator<_Iterator>& std::move_iterator<_Iterator>::operator++() [with _Iterator = Dsp::PoleZeroPair*]	16	static
+move.h:47:5:constexpr _Tp* std::__addressof(_Tp&) [with _Tp = Dsp::PoleZeroPair]	16	static
+stl_iterator.h:1049:7:std::move_iterator<_Iterator>::reference std::move_iterator<_Iterator>::operator*() const [with _Iterator = Dsp::PoleZeroPair*]	16	static
+move.h:73:5:constexpr _Tp&& std::forward(typename std::remove_reference<_From>::type&) [with _Tp = Dsp::PoleZeroPair]	16	static
+stl_construct.h:74:5:) [with _T1 = Dsp::PoleZeroPair; _Args = {Dsp::PoleZeroPair}]	24	static
+stl_iterator.h:1124:5:bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&) [with _Iterator = Dsp::PoleZeroPair*]	24	static
+stl_iterator.h:1045:7:std::move_iterator<_Iterator>::iterator_type std::move_iterator<_Iterator>::base() const [with _Iterator = Dsp::PoleZeroPair*]	16	static

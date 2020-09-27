@@ -1,0 +1,37 @@
+std_abs.h:70:3:constexpr double std::abs(double)	16	static
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+complex:1209:26:constexpr std::complex<double>::complex(double, double)	32	static
+complex:1229:7:constexpr double std::complex<double>::real() const	16	static
+complex:1233:7:constexpr double std::complex<double>::imag() const	16	static
+complex:1257:7:std::complex<double>& std::complex<double>::operator=(double)	24	static
+complex:1278:7:std::complex<double>& std::complex<double>::operator*=(double)	48	static
+complex:547:5:constexpr _Tp std::imag(const std::complex<_Tp>&) [with _Tp = double]	16	static
+complex:542:5:constexpr _Tp std::real(const std::complex<_Tp>&) [with _Tp = double]	16	static
+RootFinder.cpp:42:6:void Dsp::RootFinderBase::solve(int, bool, bool)	176	static
+RootFinder.cpp:89:6:void Dsp::RootFinderBase::sort(int)	56	static
+RootFinder.cpp:110:6:void Dsp::RootFinderBase::laguerre(int, Dsp::complex_t*, Dsp::complex_t&, int&)	488	static
+RootFinder.cpp:168:11:Dsp::complex_t Dsp::RootFinderBase::eval(int, const complex_t&)	104	static
+complex:458:5:constexpr bool std::operator==(const std::complex<_Tp>&, const std::complex<_Tp>&) [with _Tp = double]	24	static
+complex:463:5:constexpr bool std::operator==(const std::complex<_Tp>&, const _Tp&) [with _Tp = double]	24	static
+complex:386:5:std::complex<_Tp> std::operator*(const std::complex<_Tp>&, const std::complex<_Tp>&) [with _Tp = double]	40	static
+complex:326:5:std::complex<_Tp> std::operator+(const std::complex<_Tp>&, const std::complex<_Tp>&) [with _Tp = double]	40	static
+complex:603:5:_Tp std::abs(const std::complex<_Tp>&) [with _Tp = double]	16	static
+complex:416:5:std::complex<_Tp> std::operator/(const std::complex<_Tp>&, const std::complex<_Tp>&) [with _Tp = double]	40	static
+complex:404:5:std::complex<_Tp> std::operator*(const _Tp&, const std::complex<_Tp>&) [with _Tp = double]	40	static
+complex:356:5:std::complex<_Tp> std::operator-(const std::complex<_Tp>&, const std::complex<_Tp>&) [with _Tp = double]	40	static
+complex:903:5:std::complex<_Tp> std::sqrt(const std::complex<_Tp>&) [with _Tp = double]	24	static
+stl_algobase.h:219:5:const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = double]	24	static
+complex:434:5:std::complex<_Tp> std::operator/(const _Tp&, const std::complex<_Tp>&) [with _Tp = double]	40	static
+complex:671:5:std::complex<_Tp> std::polar(const _Tp&, const _Tp&) [with _Tp = double]	48	static
+complex:1314:9:std::complex<double>& std::complex<double>::operator-=(const std::complex<_Tp>&) [with _Tp = double]	24	static
+complex:481:5:constexpr bool std::operator!=(const std::complex<_Tp>&, const _Tp&) [with _Tp = double]	24	static
+complex:998:5:std::complex<_Tp> std::pow(const std::complex<_Tp>&, const _Tp&) [with _Tp = double]	96	static
+complex:1305:9:std::complex<double>& std::complex<double>::operator+=(const std::complex<_Tp>&) [with _Tp = double]	24	static
+complex:1323:9:std::complex<double>& std::complex<double>::operator*=(const std::complex<_Tp>&) [with _Tp = double]	56	static
+complex:574:5:_Tp std::__complex_abs(const std::complex<_Tp>&) [with _Tp = double]	64	static
+complex:1334:9:std::complex<double>& std::complex<double>::operator/=(const std::complex<_Tp>&) [with _Tp = double]	56	static
+complex:866:5:std::complex<_Tp> std::__complex_sqrt(const std::complex<_Tp>&) [with _Tp = double]	120	static
+complex:794:5:std::complex<_Tp> std::log(const std::complex<_Tp>&) [with _Tp = double]	24	static
+complex:774:5:std::complex<_Tp> std::__complex_log(const std::complex<_Tp>&) [with _Tp = double]	48	static
+complex:630:5:_Tp std::arg(const std::complex<_Tp>&) [with _Tp = double]	16	static
+complex:610:5:_Tp std::__complex_arg(const std::complex<_Tp>&) [with _Tp = double]	24	static

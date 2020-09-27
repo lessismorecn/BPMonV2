@@ -1,0 +1,39 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+complex:1209:26:constexpr std::complex<double>::complex(double, double)	32	static
+complex:1229:7:constexpr double std::complex<double>::real() const	16	static
+complex:1233:7:constexpr double std::complex<double>::imag() const	16	static
+limits:1715:7:static constexpr double std::numeric_limits<double>::infinity()	8	static
+MathSupplement.h:64:24:const complex_t Dsp::infinity()	32	static
+MathSupplement.h:113:13:bool Dsp::is_nan(Ty) [with Ty = std::complex<double>]	32	static
+Types.h:51:12:Dsp::ComplexPair::ComplexPair(const complex_t&)	32	static
+Types.h:57:3:Dsp::ComplexPair::ComplexPair(const complex_t&, const complex_t&)	24	static
+Types.h:68:8:bool Dsp::ComplexPair::isReal() const	16	static
+Types.h:100:3:Dsp::PoleZeroPair::PoleZeroPair(const complex_t&, const complex_t&)	24	static
+Types.h:106:3:Dsp::PoleZeroPair::PoleZeroPair(const complex_t&, const complex_t&, const complex_t&, const complex_t&)	24	static
+Layout.h:54:3:Dsp::LayoutBase::LayoutBase()	16	static
+Layout.h:74:8:void Dsp::LayoutBase::reset()	16	static
+Types.h:45:8:Dsp::ComplexPair& Dsp::ComplexPair::operator=(Dsp::ComplexPair&&)	16	static
+Types.h:92:8:Dsp::PoleZeroPair& Dsp::PoleZeroPair::operator=(Dsp::PoleZeroPair&&)	16	static
+Layout.h:89:8:void Dsp::LayoutBase::add(const complex_t&, const complex_t&)	96	static
+Layout.h:97:8:void Dsp::LayoutBase::addPoleZeroConjugatePairs(Dsp::complex_t, Dsp::complex_t)	160	static
+Layout.h:138:8:void Dsp::LayoutBase::setNormal(double, double)	32	static
+ChebyshevI.cpp:43:1:Dsp::ChebyshevI::AnalogLowPass::AnalogLowPass()	16	static
+cmath:415:5:constexpr typename __gnu_cxx::__promote_2<_Tp, _Up>::__type std::pow(_Tp, _Up) [with _Tp = int; _Up = double]	32	static
+ChebyshevI.cpp:48:6:void Dsp::ChebyshevI::AnalogLowPass::design(int, double)	176	static
+ChebyshevI.cpp:98:1:Dsp::ChebyshevI::AnalogLowShelf::AnalogLowShelf()	16	static
+ChebyshevI.cpp:103:6:void Dsp::ChebyshevI::AnalogLowShelf::design(int, double, double)	296	static
+ChebyshevI.cpp:161:6:void Dsp::ChebyshevI::LowPassBase::setup(int, double, double, double)	56	static
+ChebyshevI.cpp:175:6:void Dsp::ChebyshevI::HighPassBase::setup(int, double, double, double)	56	static
+ChebyshevI.cpp:189:6:void Dsp::ChebyshevI::BandPassBase::setup(int, double, double, double, double)	128	static
+ChebyshevI.cpp:205:6:void Dsp::ChebyshevI::BandStopBase::setup(int, double, double, double, double)	112	static
+ChebyshevI.cpp:221:6:void Dsp::ChebyshevI::LowShelfBase::setup(int, double, double, double, double)	64	static
+ChebyshevI.cpp:236:6:void Dsp::ChebyshevI::HighShelfBase::setup(int, double, double, double, double)	64	static
+ChebyshevI.cpp:251:6:void Dsp::ChebyshevI::BandShelfBase::setup(int, double, double, double, double, double)	136	static
+MathSupplement.h:107:13:bool Dsp::is_nan(Ty) [with Ty = double]	24	static
+move.h:73:5:constexpr _Tp&& std::forward(typename std::remove_reference<_From>::type&) [with _Tp = double]	16	static
+stl_pair.h:314:18:constexpr std::pair<_T1, _T2>::pair(const _T1&, _U2&&) [with _U2 = double; typename std::enable_if<std::_PCC<true, _T1, _T2>::_CopyMovePair<true, _T1, _U2>(), bool>::type <anonymous> = 1; _T1 = std::complex<double>; _T2 = std::complex<double>]	32	static
+stl_pair.h:249:17:constexpr std::pair<_T1, _T2>::pair(const _T1&, const _T2&) [with _U1 = std::complex<double>; _U2 = std::complex<double>; typename std::enable_if<(std::_PCC<true, _T1, _T2>::_ConstructiblePair<_U1, _U2>() && std::_PCC<true, _T1, _T2>::_ImplicitlyConvertiblePair<_U1, _U2>()), bool>::type <anonymous> = 1; _T1 = std::complex<double>; _T2 = std::complex<double>]	24	static
+complex:679:5:std::complex<_Tp> std::conj(const std::complex<_Tp>&) [with _Tp = double]	48	static
+move.h:73:5:constexpr _Tp&& std::forward(typename std::remove_reference<_From>::type&) [with _Tp = std::complex<double>]	16	static
+stl_pair.h:384:7:std::pair<_T1, _T2>& std::pair<_T1, _T2>::operator=(typename std::conditional<std::__and_<std::is_move_assignable<_Tp>, std::is_move_assignable<_T2> >::value, std::pair<_T1, _T2>&&, std::__nonesuch_no_braces&&>::type) [with _T1 = std::complex<double>; _T2 = std::complex<double>]	24	static
+MathSupplement.h:95:11:Ty Dsp::asinh(Ty) [with Ty = double]	24	static

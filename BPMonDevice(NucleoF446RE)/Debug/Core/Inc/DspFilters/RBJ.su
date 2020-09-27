@@ -1,0 +1,12 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+RBJ.cpp:43:6:void Dsp::RBJ::LowPass::setup(double, double, double)	128	static
+RBJ.cpp:60:6:void Dsp::RBJ::HighPass::setup(double, double, double)	128	static
+RBJ.cpp:77:6:void Dsp::RBJ::BandPass1::setup(double, double, double)	128	static
+RBJ.cpp:94:6:void Dsp::RBJ::BandPass2::setup(double, double, double)	128	static
+RBJ.cpp:111:6:void Dsp::RBJ::BandStop::setup(double, double, double)	128	static
+cmath:415:5:constexpr typename __gnu_cxx::__promote_2<_Tp, _Up>::__type std::pow(_Tp, _Up) [with _Tp = int; _Up = double]	32	static
+RBJ.cpp:128:6:void Dsp::RBJ::LowShelf::setup(double, double, double, double)	160	static
+RBJ.cpp:148:6:void Dsp::RBJ::HighShelf::setup(double, double, double, double)	160	static
+RBJ.cpp:168:6:void Dsp::RBJ::BandShelf::setup(double, double, double, double)	144	static
+RBJ.cpp:188:6:void Dsp::RBJ::AllPass::setup(double, double, double)	128	static
+MathSupplement.h:107:13:bool Dsp::is_nan(Ty) [with Ty = double]	24	static

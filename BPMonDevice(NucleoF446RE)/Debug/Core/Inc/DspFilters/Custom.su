@@ -1,0 +1,11 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+complex:1209:26:constexpr std::complex<double>::complex(double, double)	32	static
+complex:1229:7:constexpr double std::complex<double>::real() const	16	static
+complex:1233:7:constexpr double std::complex<double>::imag() const	16	static
+Biquad.h:212:8:void Dsp::Biquad::setOnePole(Dsp::complex_t, Dsp::complex_t)	56	static
+Biquad.h:217:8:void Dsp::Biquad::setTwoPole(Dsp::complex_t, Dsp::complex_t, Dsp::complex_t, Dsp::complex_t)	88	static
+Biquad.h:228:8:void Dsp::Biquad::applyScale(double)	24	static
+Custom.cpp:43:6:void Dsp::Custom::OnePole::setup(double, double, double)	80	static
+Custom.cpp:51:6:void Dsp::Custom::TwoPole::setup(double, double, double, double, double)	112	static
+complex:679:5:std::complex<_Tp> std::conj(const std::complex<_Tp>&) [with _Tp = double]	48	static
+complex:671:5:std::complex<_Tp> std::polar(const _Tp&, const _Tp&) [with _Tp = double]	48	static

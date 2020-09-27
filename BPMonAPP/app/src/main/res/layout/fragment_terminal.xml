@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/deviceText"
+        android:layout_width="match_parent"
+        android:layout_height="286dp" />
+
+
+    <Button
+        android:id="@+id/readButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Initiate Reading" />
+
+    <Button
+        android:id="@+id/timerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Initiate 24 Hour Timer" />
+
+    <Button
+        android:id="@+id/optionsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Options" />
+
+    <Button
+        android:id="@+id/getReadingsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Stored Readings" />
+
+    <Button
+        android:id="@+id/graphButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Switch To Graph" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EF0101"
+        android:text="Reset" />
+</LinearLayout>
+

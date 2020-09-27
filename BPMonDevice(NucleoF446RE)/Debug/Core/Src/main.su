@@ -1,0 +1,241 @@
+std_abs.h:78:3:constexpr long double std::abs(long double)	16	static
+cmath:467:3:constexpr long double std::sqrt(long double)	16	static
+new:168:14:void* operator new(std::size_t, void*)	16	static
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+complex:1209:26:constexpr std::complex<double>::complex(double, double)	32	static
+MathSupplement.h:132:3:Dsp::DenormalPrevention::DenormalPrevention()	16	static
+MathSupplement.h:138:17:double Dsp::DenormalPrevention::ac()	16	static
+Types.h:47:3:Dsp::ComplexPair::ComplexPair()	16	static
+Types.h:97:3:Dsp::PoleZeroPair::PoleZeroPair()	16	static
+State.h:115:3:Dsp::DirectFormII::DirectFormII()	16	static
+State.h:120:8:void Dsp::DirectFormII::reset()	16	static
+Layout.h:54:3:Dsp::LayoutBase::LayoutBase()	16	static
+Layout.h:60:3:Dsp::LayoutBase::LayoutBase(int, Dsp::PoleZeroPair*)	24	static
+Layout.h:67:8:void Dsp::LayoutBase::setStorage(const Dsp::LayoutBase&)	16	static
+Cascade.h:92:5:Dsp::Cascade::Storage::Storage(int, Dsp::Cascade::Stage*)	24	static
+signalDetector.h:39:2:VectorStats::VectorStats(vec_iter_ld, vec_iter_ld)	24	static
+signalDetector.h:54:55:VectorStats::compute()::<lambda(ld)>	32	static
+signalDetector.h:49:7:void VectorStats::compute()	80	static
+signalDetector.h:62:5:ld VectorStats::mean()	16	static
+signalDetector.h:66:5:ld VectorStats::standard_deviation()	16	static
+signalDetector.h:87:13:std::vector<int> z_score_thresholding(std::vector<long double>, int, ld, ld)	192	static
+main.cpp:149:5:int main()	376	static
+main.cpp:335:6:void SystemClock_Config()	184	static
+main.cpp:384:13:void MX_RTC_Init()	32	static
+main.cpp:447:13:void MX_ADC1_Init()	24	static
+main.cpp:494:13:void MX_UART4_Init()	8	static
+main.cpp:527:13:void MX_GPIO_Init()	40	static
+main.cpp:557:6:void displayLastReading()	208	static
+main.cpp:585:8:std::__cxx11::string convertReadingToString(Reading)	80	static
+main.cpp:610:6:void calculatePressures()	144	static
+Butterworth.h:157:8:Dsp::Butterworth::BandPass<2>::BandPass()	16	static
+Filter.h:243:7:Dsp::SimpleFilter<Dsp::Butterworth::BandPass<2>, 1>::SimpleFilter()	16	static
+main.cpp:712:6:void filterResults()	448	static
+main.cpp:732:6:void handleSetDate()	24	static
+main.cpp:745:6:void updateRTC(time_t)	88	static
+main.cpp:780:8:time_t getUnixTimeRTC()	104	static
+main.cpp:810:6:void handleSetOptions()	8	static
+main.cpp:824:6:void handleSendOptions()	80	static
+main.cpp:834:6:void handleSerialMsg(char*)	768	static
+main.cpp:975:6:void handleSendMsg(std::__cxx11::string)	40	dynamic
+main.cpp:988:6:void clear_rx_line()	16	static
+main.cpp:998:6:void send_line()	8	static
+main.cpp:1010:6:void read_line()	16	static,ignoring_inline_asm
+main.cpp:1042:6:void HAL_UART_RxCpltCallback(UART_HandleTypeDef*)	24	static,ignoring_inline_asm
+main.cpp:1067:6:void Error_Handler()	4	static
+stl_pair.h:218:26:constexpr std::pair<_T1, _T2>::pair() [with _U1 = std::complex<double>; _U2 = std::complex<double>; typename std::enable_if<std::__and_<std::__is_implicitly_default_constructible<_U1>, std::__is_implicitly_default_constructible<_U2> >::value, bool>::type <anonymous> = 1; _T1 = std::complex<double>; _T2 = std::complex<double>]	16	static
+stl_algobase.h:219:5:const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = unsigned int]	16	static
+stl_iterator.h:775:26:constexpr __gnu_cxx::__normal_iterator<_Iterator, _Container>::__normal_iterator() [with _Iterator = long double*; _Container = std::vector<long double>]	16	static
+stl_numeric.h:120:5:_Tp std::accumulate(_InputIterator, _InputIterator, _Tp) [with _InputIterator = __gnu_cxx::__normal_iterator<long double*, std::vector<long double> >; _Tp = double]	32	static
+stl_iterator_base_types.h:205:5:constexpr typename std::iterator_traits<_Iterator>::iterator_category std::__iterator_category(const _Iter&) [with _Iter = __gnu_cxx::__normal_iterator<long double*, std::vector<long double> >]	16	static
+stl_iterator_base_funcs.h:138:5:typename std::iterator_traits<_Iterator>::difference_type std::distance(_InputIterator, _InputIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<long double*, std::vector<long double> >]	32	static
+allocator.h:131:7:std::allocator< <template-parameter-1-1> >::allocator() [with _Tp = long double]	16	static
+allocator.h:139:7:std::allocator< <template-parameter-1-1> >::~allocator() [with _Tp = long double]	16	static
+stl_vector.h:283:7:std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const allocator_type&) [with _Tp = long double; _Alloc = std::allocator<long double>]	24	static
+stl_vector.h:433:7:std::vector<_Tp, _Alloc>::~vector() [with _Tp = long double; _Alloc = std::allocator<long double>]	24	static
+stl_vector.h:563:7:std::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::begin() [with _Tp = long double; _Alloc = std::allocator<long double>]	24	static
+stl_algo.h:4295:5:_OIter std::transform(_IIter, _IIter, _OIter, _UnaryOperation) [with _IIter = __gnu_cxx::__normal_iterator<long double*, std::vector<long double> >; _OIter = __gnu_cxx::__normal_iterator<long double*, std::vector<long double> >; _UnaryOperation = VectorStats::compute()::<lambda(ld)>]	48	static
+stl_vector.h:581:7:std::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::end() [with _Tp = long double; _Alloc = std::allocator<long double>]	24	static
+stl_numeric.h:174:5:_Tp std::inner_product(_InputIterator1, _InputIterator1, _InputIterator2, _Tp) [with _InputIterator1 = __gnu_cxx::__normal_iterator<long double*, std::vector<long double> >; _InputIterator2 = __gnu_cxx::__normal_iterator<long double*, std::vector<long double> >; _Tp = double]	40	static
+stl_vector.h:670:7:std::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::size() const [with _Tp = long double; _Alloc = std::allocator<long double>]	16	static
+allocator.h:131:7:std::allocator< <template-parameter-1-1> >::allocator() [with _Tp = int]	16	static
+allocator.h:139:7:std::allocator< <template-parameter-1-1> >::~allocator() [with _Tp = int]	16	static
+stl_vector.h:283:7:std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const allocator_type&) [with _Tp = int; _Alloc = std::allocator<int>]	24	static
+stl_vector.h:433:7:std::vector<_Tp, _Alloc>::~vector() [with _Tp = int; _Alloc = std::allocator<int>]	24	static
+stl_vector.h:411:2:std::vector<_Tp, _Alloc>::vector(_InputIterator, _InputIterator, const allocator_type&) [with _InputIterator = __gnu_cxx::__normal_iterator<long double*, std::vector<long double> >; <template-parameter-2-2> = void; _Tp = long double; _Alloc = std::allocator<long double>]	40	static
+stl_iterator.h:832:7:__gnu_cxx::__normal_iterator<_Iterator, _Container> __gnu_cxx::__normal_iterator<_Iterator, _Container>::operator+(__gnu_cxx::__normal_iterator<_Iterator, _Container>::difference_type) const [with _Iterator = long double*; _Container = std::vector<long double>]	24	static
+stl_vector.h:795:7:std::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) [with _Tp = long double; _Alloc = std::allocator<long double>]	16	static
+stl_vector.h:795:7:std::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) [with _Tp = int; _Alloc = std::allocator<int>]	16	static
+basic_string.h:5879:5:std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]	24	static
+basic_string.h:5944:5:std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]	24	static
+stl_vector.h:259:7:std::vector<_Tp, _Alloc>::vector() [with _Tp = long double; _Alloc = std::allocator<long double>]	16	static
+move.h:98:5:constexpr typename std::remove_reference< <template-parameter-1-1> >::type&& std::move(_Tp&&) [with _Tp = long double&]	16	static
+stl_vector.h:953:7:void std::vector<_Tp, _Alloc>::push_back(std::vector<_Tp, _Alloc>::value_type&&) [with _Tp = long double; _Alloc = std::allocator<long double>]	16	static
+stl_vector.h:259:7:std::vector<_Tp, _Alloc>::vector() [with _Tp = int; _Alloc = std::allocator<int>]	16	static
+stl_vector.h:326:7:std::vector<_Tp, _Alloc>::vector(const std::vector<_Tp, _Alloc>&) [with _Tp = long double; _Alloc = std::allocator<long double>]	40	static
+stl_vector.h:563:7:std::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::begin() [with _Tp = int; _Alloc = std::allocator<int>]	24	static
+stl_vector.h:581:7:std::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::end() [with _Tp = int; _Alloc = std::allocator<int>]	24	static
+stl_iterator.h:880:5:bool __gnu_cxx::operator!=(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&) [with _Iterator = int*; _Container = std::vector<int>]	24	static
+stl_iterator.h:807:7:__gnu_cxx::__normal_iterator<_Iterator, _Container> __gnu_cxx::__normal_iterator<_Iterator, _Container>::operator++(int) [with _Iterator = int*; _Container = std::vector<int>]	24	static
+stl_iterator.h:792:7:__gnu_cxx::__normal_iterator<_Iterator, _Container>::reference __gnu_cxx::__normal_iterator<_Iterator, _Container>::operator*() const [with _Iterator = int*; _Container = std::vector<int>]	16	static
+stl_vector.h:939:7:void std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = int; _Alloc = std::allocator<int>]	16	static
+PoleFilter.h:57:7:Dsp::PoleFilterBase2::PoleFilterBase2()	16	static
+PoleFilter.h:89:7:Dsp::PoleFilterBase<Dsp::Butterworth::AnalogLowPass>::PoleFilterBase()	16	static
+Butterworth.h:99:8:Dsp::Butterworth::BandPassBase::BandPassBase()	16	static
+Cascade.h:86:10:Dsp::Cascade::Stage::Stage()	16	static
+Cascade.h:147:7:Dsp::CascadeStages<2>::CascadeStages()	24	static
+Layout.h:156:7:Dsp::Layout<2>::Layout()	24	static
+Layout.h:156:7:Dsp::Layout<4>::Layout()	24	static
+PoleFilter.h:112:3:Dsp::PoleFilter<BaseClass, MaxAnalogPoles, MaxDigitalPoles>::PoleFilter() [with BaseClass = Dsp::Butterworth::BandPassBase; int MaxAnalogPoles = 2; int MaxDigitalPoles = 4]	96	static
+State.h:261:3:Dsp::ChannelsState<Channels, StateType>::ChannelsState() [with int Channels = 1; StateType = Dsp::CascadeStages<2>::State<Dsp::DirectFormII>]	24	static
+Filter.h:257:8:void Dsp::SimpleFilter<FilterClass, Channels, StateType>::process(int, Sample* const*) [with Sample = float; FilterClass = Dsp::Butterworth::BandPass<2>; int Channels = 1; StateType = Dsp::DirectFormII]	24	static
+move.h:98:5:constexpr typename std::remove_reference< <template-parameter-1-1> >::type&& std::move(_Tp&&) [with _Tp = std::__cxx11::basic_string<char>&]	16	static
+stl_iterator.h:880:5:bool __gnu_cxx::operator!=(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&) [with _Iterator = long double*; _Container = std::vector<long double>]	24	static
+stl_iterator.h:800:7:__gnu_cxx::__normal_iterator<_Iterator, _Container>& __gnu_cxx::__normal_iterator<_Iterator, _Container>::operator++() [with _Iterator = long double*; _Container = std::vector<long double>]	16	static
+stl_iterator.h:792:7:__gnu_cxx::__normal_iterator<_Iterator, _Container>::reference __gnu_cxx::__normal_iterator<_Iterator, _Container>::operator*() const [with _Iterator = long double*; _Container = std::vector<long double>]	16	static
+stl_iterator_base_funcs.h:98:5:typename std::iterator_traits<_Iterator>::difference_type std::__distance(_RandomAccessIterator, _RandomAccessIterator, std::random_access_iterator_tag) [with _RandomAccessIterator = __gnu_cxx::__normal_iterator<long double*, std::vector<long double> >]	24	static
+new_allocator.h:79:7:__gnu_cxx::new_allocator<_Tp>::new_allocator() [with _Tp = long double]	16	static
+new_allocator.h:86:7:__gnu_cxx::new_allocator<_Tp>::~new_allocator() [with _Tp = long double]	16	static
+stl_vector.h:81:14:std::_Vector_base<long double, std::allocator<long double> >::_Vector_impl::~_Vector_impl()	16	static
+stl_vector.h:136:7:std::_Vector_base<_Tp, _Alloc>::_Vector_base(std::size_t, const allocator_type&) [with _Tp = long double; _Alloc = std::allocator<long double>]	24	static
+stl_vector.h:161:7:std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = long double; _Alloc = std::allocator<long double>]	16	static
+stl_vector.h:1344:7:void std::vector<_Tp, _Alloc>::_M_default_initialize(std::vector<_Tp, _Alloc>::size_type) [with _Tp = long double; _Alloc = std::allocator<long double>]	24	static
+stl_vector.h:115:7:std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type& std::_Vector_base<_Tp, _Alloc>::_M_get_Tp_allocator() [with _Tp = long double; _Alloc = std::allocator<long double>]	16	static
+stl_construct.h:203:5:void std::_Destroy(_ForwardIterator, _ForwardIterator, std::allocator<_T2>&) [with _ForwardIterator = long double*; _Tp = long double]	24	static
+stl_iterator.h:779:7:__gnu_cxx::__normal_iterator<_Iterator, _Container>::__normal_iterator(const _Iterator&) [with _Iterator = long double*; _Container = std::vector<long double>]	16	static
+new_allocator.h:79:7:__gnu_cxx::new_allocator<_Tp>::new_allocator() [with _Tp = int]	16	static
+new_allocator.h:86:7:__gnu_cxx::new_allocator<_Tp>::~new_allocator() [with _Tp = int]	16	static
+stl_vector.h:81:14:std::_Vector_base<int, std::allocator<int> >::_Vector_impl::~_Vector_impl()	16	static
+stl_vector.h:136:7:std::_Vector_base<_Tp, _Alloc>::_Vector_base(std::size_t, const allocator_type&) [with _Tp = int; _Alloc = std::allocator<int>]	24	static
+stl_vector.h:161:7:std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = int; _Alloc = std::allocator<int>]	16	static
+stl_vector.h:1344:7:void std::vector<_Tp, _Alloc>::_M_default_initialize(std::vector<_Tp, _Alloc>::size_type) [with _Tp = int; _Alloc = std::allocator<int>]	24	static
+stl_vector.h:115:7:std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type& std::_Vector_base<_Tp, _Alloc>::_M_get_Tp_allocator() [with _Tp = int; _Alloc = std::allocator<int>]	16	static
+stl_construct.h:203:5:void std::_Destroy(_ForwardIterator, _ForwardIterator, std::allocator<_T2>&) [with _ForwardIterator = int*; _Tp = int]	24	static
+stl_vector.h:129:7:std::_Vector_base<_Tp, _Alloc>::_Vector_base(const allocator_type&) [with _Tp = long double; _Alloc = std::allocator<long double>]	16	static
+stl_vector.h:1294:2:void std::vector<_Tp, _Alloc>::_M_initialize_dispatch(_InputIterator, _InputIterator, std::__false_type) [with _InputIterator = __gnu_cxx::__normal_iterator<long double*, std::vector<long double> >; _Tp = long double; _Alloc = std::allocator<long double>]	40	static
+stl_vector.h:126:7:std::_Vector_base<_Tp, _Alloc>::_Vector_base() [with _Tp = long double; _Alloc = std::allocator<long double>]	16	static
+move.h:73:5:constexpr _Tp&& std::forward(typename std::remove_reference<_From>::type&) [with _Tp = long double]	16	static
+vector.tcc:95:7:) [with _Args = {long double}; _Tp = long double; _Alloc = std::allocator<long double>]	24	static
+stl_vector.h:126:7:std::_Vector_base<_Tp, _Alloc>::_Vector_base() [with _Tp = int; _Alloc = std::allocator<int>]	16	static
+alloc_traits.h:94:19:static _Alloc __gnu_cxx::__alloc_traits<_Alloc>::_S_select_on_copy(const _Alloc&) [with _Alloc = std::allocator<long double>]	16	static
+stl_vector.h:119:7:const _Tp_alloc_type& std::_Vector_base<_Tp, _Alloc>::_M_get_Tp_allocator() const [with _Tp = long double; _Alloc = std::allocator<long double>]	16	static
+stl_vector.h:572:7:std::vector<_Tp, _Alloc>::const_iterator std::vector<_Tp, _Alloc>::begin() const [with _Tp = long double; _Alloc = std::allocator<long double>]	24	static
+stl_vector.h:590:7:std::vector<_Tp, _Alloc>::const_iterator std::vector<_Tp, _Alloc>::end() const [with _Tp = long double; _Alloc = std::allocator<long double>]	24	static
+stl_uninitialized.h:287:5:_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = __gnu_cxx::__normal_iterator<const long double*, std::vector<long double> >; _ForwardIterator = long double*; _Tp = long double]	24	static
+stl_iterator.h:779:7:__gnu_cxx::__normal_iterator<_Iterator, _Container>::__normal_iterator(const _Iterator&) [with _Iterator = int*; _Container = std::vector<int>]	16	static
+stl_iterator.h:844:7:const _Iterator& __gnu_cxx::__normal_iterator<_Iterator, _Container>::base() const [with _Iterator = int*; _Container = std::vector<int>]	16	static
+move.h:73:5:constexpr _Tp&& std::forward(typename std::remove_reference<_From>::type&) [with _Tp = const int&]	16	static
+alloc_traits.h:474:2:) [with _Up = int; _Args = {const int&}; _Tp = int]	24	static
+vector.tcc:394:7:) [with _Args = {const int&}; _Tp = int; _Alloc = std::allocator<int>]	56	static
+Cascade.h:172:20:Dsp::Cascade::Storage Dsp::CascadeStages<MaxStages>::getCascadeStorage() [with int MaxStages = 2]	16	static
+PoleFilter.h:92:8:void Dsp::PoleFilterBase<AnalogPrototype>::setPrototypeStorage(const Dsp::LayoutBase&, const Dsp::LayoutBase&) [with AnalogPrototype = Dsp::Butterworth::AnalogLowPass]	32	static
+Layout.h:159:3:Dsp::Layout<MaxPoles>::operator Dsp::LayoutBase() [with int MaxPoles = 2]	16	static
+Layout.h:159:3:Dsp::Layout<MaxPoles>::operator Dsp::LayoutBase() [with int MaxPoles = 4]	16	static
+Cascade.h:154:5:Dsp::CascadeStages<MaxStages>::State<StateType>::State() [with StateType = Dsp::DirectFormII; int MaxStages = 2]	24	static
+State.h:283:8:void Dsp::ChannelsState<Channels, StateType>::process(int, Sample* const*, Filter&) [with Filter = Dsp::Butterworth::BandPass<2>; Sample = float; int Channels = 1; StateType = Dsp::CascadeStages<2>::State<Dsp::DirectFormII>]	32	static
+stl_iterator.h:844:7:const _Iterator& __gnu_cxx::__normal_iterator<_Iterator, _Container>::base() const [with _Iterator = long double*; _Container = std::vector<long double>]	16	static
+stl_iterator.h:962:5:typename __gnu_cxx::__normal_iterator<_Iterator, _Container>::difference_type __gnu_cxx::operator-(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&) [with _Iterator = long double*; _Container = std::vector<long double>]	24	static
+stl_vector.h:92:2:std::_Vector_base<_Tp, _Alloc>::_Vector_impl::_Vector_impl(const _Tp_alloc_type&) [with _Tp = long double; _Alloc = std::allocator<long double>]	16	static
+stl_vector.h:185:7:void std::_Vector_base<_Tp, _Alloc>::_M_create_storage(std::size_t) [with _Tp = long double; _Alloc = std::allocator<long double>]	16	static
+stl_vector.h:176:7:void std::_Vector_base<_Tp, _Alloc>::_M_deallocate(std::_Vector_base<_Tp, _Alloc>::pointer, std::size_t) [with _Tp = long double; _Alloc = std::allocator<long double>]	24	static
+stl_uninitialized.h:643:5:_ForwardIterator std::__uninitialized_default_n_a(_ForwardIterator, _Size, std::allocator<_Tp>&) [with _ForwardIterator = long double*; _Size = unsigned int; _Tp = long double]	24	static
+stl_construct.h:127:5:void std::_Destroy(_ForwardIterator, _ForwardIterator) [with _ForwardIterator = long double*]	16	static
+stl_vector.h:92:2:std::_Vector_base<_Tp, _Alloc>::_Vector_impl::_Vector_impl(const _Tp_alloc_type&) [with _Tp = int; _Alloc = std::allocator<int>]	16	static
+stl_vector.h:185:7:void std::_Vector_base<_Tp, _Alloc>::_M_create_storage(std::size_t) [with _Tp = int; _Alloc = std::allocator<int>]	16	static
+stl_vector.h:176:7:void std::_Vector_base<_Tp, _Alloc>::_M_deallocate(std::_Vector_base<_Tp, _Alloc>::pointer, std::size_t) [with _Tp = int; _Alloc = std::allocator<int>]	24	static
+stl_uninitialized.h:643:5:_ForwardIterator std::__uninitialized_default_n_a(_ForwardIterator, _Size, std::allocator<_Tp>&) [with _ForwardIterator = int*; _Size = unsigned int; _Tp = int]	24	static
+stl_construct.h:127:5:void std::_Destroy(_ForwardIterator, _ForwardIterator) [with _ForwardIterator = int*]	16	static
+stl_vector.h:1319:2:void std::vector<_Tp, _Alloc>::_M_range_initialize(_ForwardIterator, _ForwardIterator, std::forward_iterator_tag) [with _ForwardIterator = __gnu_cxx::__normal_iterator<long double*, std::vector<long double> >; _Tp = long double; _Alloc = std::allocator<long double>]	40	static
+stl_vector.h:88:2:std::_Vector_base<_Tp, _Alloc>::_Vector_impl::_Vector_impl() [with _Tp = long double; _Alloc = std::allocator<long double>]	16	static
+alloc_traits.h:474:2:) [with _Up = long double; _Args = {long double}; _Tp = long double]	24	static
+vector.tcc:394:7:) [with _Args = {long double}; _Tp = long double; _Alloc = std::allocator<long double>]	56	static
+stl_vector.h:88:2:std::_Vector_base<_Tp, _Alloc>::_Vector_impl::_Vector_impl() [with _Tp = int; _Alloc = std::allocator<int>]	16	static
+alloc_traits.h:504:7:static std::allocator_traits<std::allocator<_CharT> >::allocator_type std::allocator_traits<std::allocator<_CharT> >::select_on_container_copy_construction(const allocator_type&) [with _Tp = long double]	16	static
+allocator.h:133:7:std::allocator< <template-parameter-1-1> >::allocator(const std::allocator< <template-parameter-1-1> >&) [with _Tp = long double]	16	static
+stl_iterator.h:779:7:__gnu_cxx::__normal_iterator<_Iterator, _Container>::__normal_iterator(const _Iterator&) [with _Iterator = const long double*; _Container = std::vector<long double>]	16	static
+stl_uninitialized.h:115:5:_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const long double*, std::vector<long double> >; _ForwardIterator = long double*]	32	static
+new_allocator.h:135:2:) [with _Up = int; _Args = {const int&}; _Tp = int]	32	static
+stl_vector.h:1497:7:std::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::_M_check_len(std::vector<_Tp, _Alloc>::size_type, const char*) const [with _Tp = int; _Alloc = std::allocator<int>]	40	static
+stl_iterator.h:962:5:typename __gnu_cxx::__normal_iterator<_Iterator, _Container>::difference_type __gnu_cxx::operator-(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&) [with _Iterator = int*; _Container = std::vector<int>]	24	static
+stl_vector.h:169:7:std::_Vector_base<_Tp, _Alloc>::pointer std::_Vector_base<_Tp, _Alloc>::_M_allocate(std::size_t) [with _Tp = int; _Alloc = std::allocator<int>]	16	static
+stl_uninitialized.h:305:5:_ForwardIterator std::__uninitialized_move_if_noexcept_a(_InputIterator, _InputIterator, _ForwardIterator, _Allocator&) [with _InputIterator = int*; _ForwardIterator = int*; _Allocator = std::allocator<int>]	32	static
+Cascade.h:77:5:Dsp::Cascade::StateBase<StateType>::StateBase(StateType*) [with StateType = Dsp::DirectFormII]	16	static
+Cascade.h:160:10:void Dsp::CascadeStages<MaxStages>::State<StateType>::reset() [with StateType = Dsp::DirectFormII; int MaxStages = 2]	24	static
+Cascade.h:121:8:void Dsp::Cascade::process(int, Sample*, StateType&) const [with StateType = Dsp::CascadeStages<2>::State<Dsp::DirectFormII>; Sample = float]	24	static
+stl_vector.h:169:7:std::_Vector_base<_Tp, _Alloc>::pointer std::_Vector_base<_Tp, _Alloc>::_M_allocate(std::size_t) [with _Tp = long double; _Alloc = std::allocator<long double>]	16	static
+alloc_traits.h:461:7:static void std::allocator_traits<std::allocator<_CharT> >::deallocate(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, std::allocator_traits<std::allocator<_CharT> >::pointer, std::allocator_traits<std::allocator<_CharT> >::size_type) [with _Tp = long double]	24	static
+stl_uninitialized.h:574:5:_ForwardIterator std::__uninitialized_default_n(_ForwardIterator, _Size) [with _ForwardIterator = long double*; _Size = unsigned int]	24	static
+stl_construct.h:117:9:static void std::_Destroy_aux<true>::__destroy(_ForwardIterator, _ForwardIterator) [with _ForwardIterator = long double*]	16	static
+allocator.h:133:7:std::allocator< <template-parameter-1-1> >::allocator(const std::allocator< <template-parameter-1-1> >&) [with _Tp = int]	16	static
+alloc_traits.h:461:7:static void std::allocator_traits<std::allocator<_CharT> >::deallocate(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, std::allocator_traits<std::allocator<_CharT> >::pointer, std::allocator_traits<std::allocator<_CharT> >::size_type) [with _Tp = int]	24	static
+stl_uninitialized.h:574:5:_ForwardIterator std::__uninitialized_default_n(_ForwardIterator, _Size) [with _ForwardIterator = int*; _Size = unsigned int]	24	static
+stl_construct.h:117:9:static void std::_Destroy_aux<true>::__destroy(_ForwardIterator, _ForwardIterator) [with _ForwardIterator = int*]	16	static
+stl_uninitialized.h:287:5:_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = __gnu_cxx::__normal_iterator<long double*, std::vector<long double> >; _ForwardIterator = long double*; _Tp = long double]	24	static
+new_allocator.h:135:2:) [with _Up = long double; _Args = {long double}; _Tp = long double]	32	static
+stl_vector.h:1497:7:std::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::_M_check_len(std::vector<_Tp, _Alloc>::size_type, const char*) const [with _Tp = long double; _Alloc = std::allocator<long double>]	40	static
+stl_uninitialized.h:305:5:_ForwardIterator std::__uninitialized_move_if_noexcept_a(_InputIterator, _InputIterator, _ForwardIterator, _Allocator&) [with _InputIterator = long double*; _ForwardIterator = long double*; _Allocator = std::allocator<long double>]	32	static
+new_allocator.h:81:7:__gnu_cxx::new_allocator<_Tp>::new_allocator(const __gnu_cxx::new_allocator<_Tp>&) [with _Tp = long double]	16	static
+stl_uninitialized.h:99:9:static _ForwardIterator std::__uninitialized_copy<true>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<const long double*, std::vector<long double> >; _ForwardIterator = long double*]	24	static
+stl_vector.h:675:7:std::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::max_size() const [with _Tp = int; _Alloc = std::allocator<int>]	16	static
+stl_vector.h:670:7:std::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::size() const [with _Tp = int; _Alloc = std::allocator<int>]	16	static
+alloc_traits.h:435:7:static _Tp* std::allocator_traits<std::allocator<_CharT> >::allocate(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, std::allocator_traits<std::allocator<_CharT> >::size_type) [with _Tp = int]	16	static
+stl_iterator.h:1221:5:_ReturnType std::__make_move_if_noexcept_iterator(_Tp*) [with _Tp = int; _ReturnType = std::move_iterator<int*>]	24	static
+stl_uninitialized.h:287:5:_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = std::move_iterator<int*>; _ForwardIterator = int*; _Tp = int]	24	static
+Cascade.h:61:19:Sample Dsp::Cascade::StateBase<StateType>::process(Sample, const Dsp::Cascade&) [with Sample = float; StateType = Dsp::DirectFormII]	64	static
+alloc_traits.h:435:7:static _Tp* std::allocator_traits<std::allocator<_CharT> >::allocate(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, std::allocator_traits<std::allocator<_CharT> >::size_type) [with _Tp = long double]	16	static
+new_allocator.h:116:7:void __gnu_cxx::new_allocator<_Tp>::deallocate(__gnu_cxx::new_allocator<_Tp>::pointer, __gnu_cxx::new_allocator<_Tp>::size_type) [with _Tp = long double]	24	static
+stl_uninitialized.h:543:9:static _ForwardIterator std::__uninitialized_default_n_1<true>::__uninit_default_n(_ForwardIterator, _Size) [with _ForwardIterator = long double*; _Size = unsigned int]	32	static
+new_allocator.h:81:7:__gnu_cxx::new_allocator<_Tp>::new_allocator(const __gnu_cxx::new_allocator<_Tp>&) [with _Tp = int]	16	static
+new_allocator.h:116:7:void __gnu_cxx::new_allocator<_Tp>::deallocate(__gnu_cxx::new_allocator<_Tp>::pointer, __gnu_cxx::new_allocator<_Tp>::size_type) [with _Tp = int]	24	static
+stl_uninitialized.h:543:9:static _ForwardIterator std::__uninitialized_default_n_1<true>::__uninit_default_n(_ForwardIterator, _Size) [with _ForwardIterator = int*; _Size = unsigned int]	24	static
+stl_uninitialized.h:115:5:_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<long double*, std::vector<long double> >; _ForwardIterator = long double*]	32	static
+stl_vector.h:675:7:std::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::max_size() const [with _Tp = long double; _Alloc = std::allocator<long double>]	16	static
+stl_iterator.h:1221:5:_ReturnType std::__make_move_if_noexcept_iterator(_Tp*) [with _Tp = long double; _ReturnType = std::move_iterator<long double*>]	24	static
+stl_uninitialized.h:287:5:_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = std::move_iterator<long double*>; _ForwardIterator = long double*; _Tp = long double]	24	static
+stl_algobase.h:446:5:_OI std::copy(_II, _II, _OI) [with _II = __gnu_cxx::__normal_iterator<const long double*, std::vector<long double> >; _OI = long double*]	32	static
+alloc_traits.h:495:7:static std::allocator_traits<std::allocator<_CharT> >::size_type std::allocator_traits<std::allocator<_CharT> >::max_size(const allocator_type&) [with _Tp = int]	16	static
+stl_vector.h:119:7:const _Tp_alloc_type& std::_Vector_base<_Tp, _Alloc>::_M_get_Tp_allocator() const [with _Tp = int; _Alloc = std::allocator<int>]	16	static
+new_allocator.h:99:7:_Tp* __gnu_cxx::new_allocator<_Tp>::allocate(__gnu_cxx::new_allocator<_Tp>::size_type, const void*) [with _Tp = int]	24	static
+stl_iterator.h:1036:7:std::move_iterator<_Iterator>::move_iterator(std::move_iterator<_Iterator>::iterator_type) [with _Iterator = int*]	16	static
+stl_uninitialized.h:115:5:_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = std::move_iterator<int*>; _ForwardIterator = int*]	32	static
+State.h:127:10:Sample Dsp::DirectFormII::process1(Sample, const Dsp::BiquadBase&, double) [with Sample = double]	64	static
+new_allocator.h:99:7:_Tp* __gnu_cxx::new_allocator<_Tp>::allocate(__gnu_cxx::new_allocator<_Tp>::size_type, const void*) [with _Tp = long double]	24	static
+stl_algobase.h:784:5:_OI std::fill_n(_OI, _Size, const _Tp&) [with _OI = long double*; _Size = unsigned int; _Tp = long double]	24	static
+stl_algobase.h:784:5:_OI std::fill_n(_OI, _Size, const _Tp&) [with _OI = int*; _Size = unsigned int; _Tp = int]	24	static
+stl_uninitialized.h:99:9:static _ForwardIterator std::__uninitialized_copy<true>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = __gnu_cxx::__normal_iterator<long double*, std::vector<long double> >; _ForwardIterator = long double*]	24	static
+alloc_traits.h:495:7:static std::allocator_traits<std::allocator<_CharT> >::size_type std::allocator_traits<std::allocator<_CharT> >::max_size(const allocator_type&) [with _Tp = long double]	16	static
+stl_iterator.h:1036:7:std::move_iterator<_Iterator>::move_iterator(std::move_iterator<_Iterator>::iterator_type) [with _Iterator = long double*]	16	static
+stl_uninitialized.h:115:5:_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = std::move_iterator<long double*>; _ForwardIterator = long double*]	32	static
+cpp_type_traits.h:408:5:_Iterator std::__miter_base(_Iterator) [with _Iterator = __gnu_cxx::__normal_iterator<const long double*, std::vector<long double> >]	16	static
+stl_algobase.h:420:5:_OI std::__copy_move_a2(_II, _II, _OI) [with bool _IsMove = false; _II = __gnu_cxx::__normal_iterator<const long double*, std::vector<long double> >; _OI = long double*]	32	static
+new_allocator.h:129:7:__gnu_cxx::new_allocator<_Tp>::size_type __gnu_cxx::new_allocator<_Tp>::max_size() const [with _Tp = int]	16	static
+stl_uninitialized.h:99:9:static _ForwardIterator std::__uninitialized_copy<true>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = std::move_iterator<int*>; _ForwardIterator = int*]	24	static
+new_allocator.h:129:7:__gnu_cxx::new_allocator<_Tp>::size_type __gnu_cxx::new_allocator<_Tp>::max_size() const [with _Tp = long double]	16	static
+stl_algobase.h:277:5:_Iterator std::__niter_base(_Iterator) [with _Iterator = long double*]	16	static
+stl_algobase.h:749:5:typename __gnu_cxx::__enable_if<std::__is_scalar<_Tp>::__value, _OutputIterator>::__type std::__fill_n_a(_OutputIterator, _Size, const _Tp&) [with _OutputIterator = long double*; _Size = unsigned int; _Tp = long double]	40	static
+stl_algobase.h:277:5:_Iterator std::__niter_base(_Iterator) [with _Iterator = int*]	16	static
+stl_algobase.h:749:5:typename __gnu_cxx::__enable_if<std::__is_scalar<_Tp>::__value, _OutputIterator>::__type std::__fill_n_a(_OutputIterator, _Size, const _Tp&) [with _OutputIterator = int*; _Size = unsigned int; _Tp = int]	32	static
+stl_algobase.h:446:5:_OI std::copy(_II, _II, _OI) [with _II = __gnu_cxx::__normal_iterator<long double*, std::vector<long double> >; _OI = long double*]	32	static
+stl_uninitialized.h:99:9:static _ForwardIterator std::__uninitialized_copy<true>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = std::move_iterator<long double*>; _ForwardIterator = long double*]	24	static
+stl_iterator.h:983:5:_Iterator std::__niter_base(__gnu_cxx::__normal_iterator<_Iterator, _Container>) [with _Iterator = const long double*; _Container = std::vector<long double>]	16	static
+stl_algobase.h:375:5:_OI std::__copy_move_a(_II, _II, _OI) [with bool _IsMove = false; _II = const long double*; _OI = long double*]	32	static
+stl_algobase.h:446:5:_OI std::copy(_II, _II, _OI) [with _II = std::move_iterator<int*>; _OI = int*]	32	static
+cpp_type_traits.h:408:5:_Iterator std::__miter_base(_Iterator) [with _Iterator = __gnu_cxx::__normal_iterator<long double*, std::vector<long double> >]	16	static
+stl_algobase.h:420:5:_OI std::__copy_move_a2(_II, _II, _OI) [with bool _IsMove = false; _II = __gnu_cxx::__normal_iterator<long double*, std::vector<long double> >; _OI = long double*]	32	static
+stl_algobase.h:446:5:_OI std::copy(_II, _II, _OI) [with _II = std::move_iterator<long double*>; _OI = long double*]	32	static
+stl_iterator.h:844:7:const _Iterator& __gnu_cxx::__normal_iterator<_Iterator, _Container>::base() const [with _Iterator = const long double*; _Container = std::vector<long double>]	16	static
+stl_algobase.h:357:9:static _Tp* std::__copy_move<_IsMove, true, std::random_access_iterator_tag>::__copy_m(const _Tp*, const _Tp*, _Tp*) [with _Tp = long double; bool _IsMove = false]	32	static
+stl_iterator.h:1241:5:base())) std::__miter_base(std::move_iterator<_IteratorL>) [with _Iterator = int*]	16	static
+stl_algobase.h:420:5:_OI std::__copy_move_a2(_II, _II, _OI) [with bool _IsMove = true; _II = int*; _OI = int*]	32	static
+stl_iterator.h:983:5:_Iterator std::__niter_base(__gnu_cxx::__normal_iterator<_Iterator, _Container>) [with _Iterator = long double*; _Container = std::vector<long double>]	16	static
+stl_algobase.h:375:5:_OI std::__copy_move_a(_II, _II, _OI) [with bool _IsMove = false; _II = long double*; _OI = long double*]	32	static
+stl_iterator.h:1241:5:base())) std::__miter_base(std::move_iterator<_IteratorL>) [with _Iterator = long double*]	16	static
+stl_algobase.h:420:5:_OI std::__copy_move_a2(_II, _II, _OI) [with bool _IsMove = true; _II = long double*; _OI = long double*]	32	static
+stl_iterator.h:1045:7:std::move_iterator<_Iterator>::iterator_type std::move_iterator<_Iterator>::base() const [with _Iterator = int*]	16	static
+cpp_type_traits.h:408:5:_Iterator std::__miter_base(_Iterator) [with _Iterator = int*]	16	static
+stl_algobase.h:375:5:_OI std::__copy_move_a(_II, _II, _OI) [with bool _IsMove = true; _II = int*; _OI = int*]	32	static
+stl_iterator.h:1045:7:std::move_iterator<_Iterator>::iterator_type std::move_iterator<_Iterator>::base() const [with _Iterator = long double*]	16	static
+cpp_type_traits.h:408:5:_Iterator std::__miter_base(_Iterator) [with _Iterator = long double*]	16	static
+stl_algobase.h:375:5:_OI std::__copy_move_a(_II, _II, _OI) [with bool _IsMove = true; _II = long double*; _OI = long double*]	32	static
+stl_algobase.h:357:9:static _Tp* std::__copy_move<_IsMove, true, std::random_access_iterator_tag>::__copy_m(const _Tp*, const _Tp*, _Tp*) [with _Tp = int; bool _IsMove = true]	32	static
+stl_algobase.h:357:9:static _Tp* std::__copy_move<_IsMove, true, std::random_access_iterator_tag>::__copy_m(const _Tp*, const _Tp*, _Tp*) [with _Tp = long double; bool _IsMove = true]	32	static

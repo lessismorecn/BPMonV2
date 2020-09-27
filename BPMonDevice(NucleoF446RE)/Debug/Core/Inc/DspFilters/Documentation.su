@@ -1,0 +1,282 @@
+new:168:14:void* operator new(std::size_t, void*)	16	static
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+complex:1209:26:constexpr std::complex<double>::complex(double, double)	32	static
+MathSupplement.h:132:3:Dsp::DenormalPrevention::DenormalPrevention()	16	static
+MathSupplement.h:138:17:double Dsp::DenormalPrevention::ac()	16	static
+Types.h:47:3:Dsp::ComplexPair::ComplexPair()	16	static
+Types.h:97:3:Dsp::PoleZeroPair::PoleZeroPair()	16	static
+Biquad.h:73:10:double Dsp::BiquadBase::getA0() const	16	static
+Biquad.h:74:10:double Dsp::BiquadBase::getA1() const	24	static
+Biquad.h:75:10:double Dsp::BiquadBase::getA2() const	24	static
+Biquad.h:76:10:double Dsp::BiquadBase::getB0() const	24	static
+Biquad.h:77:10:double Dsp::BiquadBase::getB1() const	24	static
+Biquad.h:78:10:double Dsp::BiquadBase::getB2() const	24	static
+Params.h:91:11:double& Dsp::Params::operator[](int)	16	static
+Params.h:96:17:const double& Dsp::Params::operator[](int) const	16	static
+Params.h:118:3:Dsp::ParamInfo::ParamInfo(Dsp::ParamID, const char*, const char*, double, double, double, Dsp::ParamInfo::toControlValue_t, Dsp::ParamInfo::toNativeValue_t, Dsp::ParamInfo::toString_t)	48	static
+State.h:115:3:Dsp::DirectFormII::DirectFormII()	16	static
+State.h:120:8:void Dsp::DirectFormII::reset()	16	static
+Filter.h:70:17:const Dsp::Params& Dsp::Filter::getParams() const	16	static
+Filter.h:92:8:void Dsp::Filter::setParams(const Dsp::Params&)	24	static
+Layout.h:54:3:Dsp::LayoutBase::LayoutBase()	16	static
+Layout.h:60:3:Dsp::LayoutBase::LayoutBase(int, Dsp::PoleZeroPair*)	24	static
+Layout.h:67:8:void Dsp::LayoutBase::setStorage(const Dsp::LayoutBase&)	16	static
+Layout.h:79:7:int Dsp::LayoutBase::getNumPoles() const	16	static
+Layout.h:117:23:const Dsp::PoleZeroPair& Dsp::LayoutBase::getPair(int) const	16	static
+Layout.h:123:23:const Dsp::PoleZeroPair& Dsp::LayoutBase::operator[](int) const	16	static
+Cascade.h:92:5:Dsp::Cascade::Storage::Storage(int, Dsp::Cascade::Stage*)	24	static
+Cascade.h:102:7:int Dsp::Cascade::getNumStages() const	16	static
+Cascade.h:107:16:const Dsp::Cascade::Stage& Dsp::Cascade::operator[](int)	16	static
+PoleFilter.h:72:29:std::vector<Dsp::PoleZeroPair> Dsp::PoleFilterBase2::getPoleZeros() const	24	static
+Design.h:47:26:static const Dsp::ParamInfo Dsp::DesignBase::getParamInfo_0()	16	static
+Design.h:55:26:static const Dsp::ParamInfo Dsp::DesignBase::getParamInfo_3()	16	static
+Design.h:56:26:static const Dsp::ParamInfo Dsp::DesignBase::getParamInfo_4()	16	static
+Design.h:57:26:static const Dsp::ParamInfo Dsp::DesignBase::getParamInfo_5()	16	static
+Design.h:58:26:static const Dsp::ParamInfo Dsp::DesignBase::getParamInfo_6()	16	static
+Design.h:59:26:static const Dsp::ParamInfo Dsp::DesignBase::getParamInfo_7()	16	static
+Butterworth.h:201:26:static const Dsp::ParamInfo Dsp::Butterworth::Design::TypeIBase::getParamInfo_2()	16	static
+Butterworth.h:228:26:static const Dsp::ParamInfo Dsp::Butterworth::Design::TypeIIBase::getParamInfo_2()	16	static
+Butterworth.h:233:26:static const Dsp::ParamInfo Dsp::Butterworth::Design::TypeIIBase::getParamInfo_3()	16	static
+Butterworth.h:330:15:static Dsp::Kind Dsp::Butterworth::Design::HighPassDescription::getKind()	4	static
+Butterworth.h:331:22:static const char* Dsp::Butterworth::Design::HighPassDescription::getName()	4	static
+Butterworth.h:336:15:static Dsp::Kind Dsp::Butterworth::Design::BandPassDescription::getKind()	4	static
+Butterworth.h:337:22:static const char* Dsp::Butterworth::Design::BandPassDescription::getName()	4	static
+ChebyshevII.h:282:26:static const Dsp::ParamInfo Dsp::ChebyshevII::Design::TypeIIIBase::getParamInfo_2()	16	static
+ChebyshevII.h:287:26:static const Dsp::ParamInfo Dsp::ChebyshevII::Design::TypeIIIBase::getParamInfo_3()	16	static
+ChebyshevII.h:292:26:static const Dsp::ParamInfo Dsp::ChebyshevII::Design::TypeIIIBase::getParamInfo_4()	16	static
+ChebyshevII.h:377:15:static Dsp::Kind Dsp::ChebyshevII::Design::LowShelfDescription::getKind()	4	static
+ChebyshevII.h:378:22:static const char* Dsp::ChebyshevII::Design::LowShelfDescription::getName()	4	static
+RBJ.h:147:26:static const Dsp::ParamInfo Dsp::RBJ::Design::TypeIBase::getParamInfo_1()	16	static
+RBJ.h:152:26:static const Dsp::ParamInfo Dsp::RBJ::Design::TypeIBase::getParamInfo_2()	16	static
+RBJ.h:277:15:static Dsp::Kind Dsp::RBJ::Design::LowPass::getKind()	4	static
+RBJ.h:278:22:static const char* Dsp::RBJ::Design::LowPass::getName()	4	static
+ChebyshevI.h:174:8:Dsp::ChebyshevI::BandStop<3>::BandStop()	16	static
+Filter.h:243:7:Dsp::SimpleFilter<Dsp::ChebyshevI::BandStop<3>, 2>::SimpleFilter()	16	static
+Butterworth.h:152:8:Dsp::Butterworth::HighPass<3>::HighPass()	16	static
+Filter.h:243:7:Dsp::SimpleFilter<Dsp::Butterworth::HighPass<3> >::SimpleFilter()	16	static
+Documentation.cpp:301:6:void {anonymous}::UsageExamples()	1000	static
+stl_pair.h:218:26:constexpr std::pair<_T1, _T2>::pair() [with _U1 = std::complex<double>; _U2 = std::complex<double>; typename std::enable_if<std::__and_<std::__is_implicitly_default_constructible<_U1>, std::__is_implicitly_default_constructible<_U2> >::value, bool>::type <anonymous> = 1; _T1 = std::complex<double>; _T2 = std::complex<double>]	16	static
+stl_vector.h:259:7:std::vector<_Tp, _Alloc>::vector() [with _Tp = Dsp::PoleZeroPair; _Alloc = std::allocator<Dsp::PoleZeroPair>]	16	static
+stl_vector.h:939:7:void std::vector<_Tp, _Alloc>::push_back(const value_type&) [with _Tp = Dsp::PoleZeroPair; _Alloc = std::allocator<Dsp::PoleZeroPair>]	16	static
+Filter.h:132:7:Dsp::FilterDesignBase<Dsp::RBJ::Design::LowPass>::~FilterDesignBase()	16	static
+Filter.h:132:7:virtual Dsp::FilterDesignBase<Dsp::RBJ::Design::LowPass>::~FilterDesignBase()	16	static
+Filter.h:197:7:Dsp::FilterDesign<Dsp::RBJ::Design::LowPass, 2, Dsp::DirectFormII>::~FilterDesign()	16	static
+Filter.h:197:7:virtual Dsp::FilterDesign<Dsp::RBJ::Design::LowPass, 2, Dsp::DirectFormII>::~FilterDesign()	16	static
+SmoothedFilter.h:59:3:Dsp::SmoothedFilterDesign<DesignClass, Channels, StateType>::SmoothedFilterDesign(int) [with DesignClass = Dsp::RBJ::Design::LowPass; int Channels = 2; StateType = Dsp::DirectFormII]	16	static
+SmoothedFilter.h:117:8:void Dsp::SmoothedFilterDesign<DesignClass, Channels, StateType>::process(int, float* const*) [with DesignClass = Dsp::RBJ::Design::LowPass; int Channels = 2; StateType = Dsp::DirectFormII]	24	static
+Filter.h:132:7:Dsp::FilterDesignBase<Dsp::Butterworth::Design::BandPass<4> >::~FilterDesignBase()	16	static
+Filter.h:132:7:virtual Dsp::FilterDesignBase<Dsp::Butterworth::Design::BandPass<4> >::~FilterDesignBase()	16	static
+Filter.h:197:7:Dsp::FilterDesign<Dsp::Butterworth::Design::BandPass<4>, 2, Dsp::DirectFormII>::~FilterDesign()	16	static
+Filter.h:197:7:virtual Dsp::FilterDesign<Dsp::Butterworth::Design::BandPass<4>, 2, Dsp::DirectFormII>::~FilterDesign()	16	static
+Butterworth.h:157:8:Dsp::Butterworth::BandPass<4>::BandPass()	16	static
+Butterworth.h:240:8:Dsp::Butterworth::Design::TypeII<Dsp::Butterworth::BandPass<4> >::TypeII()	16	static
+Butterworth.h:368:8:Dsp::Butterworth::Design::OrderBase<4, Dsp::Butterworth::Design::TypeII, Dsp::Butterworth::BandPass>::OrderBase()	16	static
+Butterworth.h:400:8:Dsp::Butterworth::Design::BandPass<4>::BandPass()	16	static
+SmoothedFilter.h:59:3:Dsp::SmoothedFilterDesign<DesignClass, Channels, StateType>::SmoothedFilterDesign(int) [with DesignClass = Dsp::Butterworth::Design::BandPass<4>; int Channels = 2; StateType = Dsp::DirectFormII]	16	static
+Filter.h:55:7:Dsp::Filter::Filter()	16	static
+ChebyshevII.h:179:8:Dsp::ChebyshevII::LowShelf<5>::LowShelf()	16	static
+ChebyshevII.h:299:8:Dsp::ChebyshevII::Design::TypeIII<Dsp::ChebyshevII::LowShelf<5> >::TypeIII()	16	static
+ChebyshevII.h:397:8:Dsp::ChebyshevII::Design::OrderBase<5, Dsp::ChebyshevII::Design::TypeIII, Dsp::ChebyshevII::LowShelf>::OrderBase()	16	static
+ChebyshevII.h:441:8:Dsp::ChebyshevII::Design::LowShelf<5>::LowShelf()	16	static
+Filter.h:132:7:Dsp::FilterDesignBase<Dsp::ChebyshevII::Design::LowShelf<5> >::FilterDesignBase()	16	static
+Filter.h:132:7:Dsp::FilterDesignBase<Dsp::ChebyshevII::Design::LowShelf<5> >::~FilterDesignBase()	16	static
+Filter.h:132:7:virtual Dsp::FilterDesignBase<Dsp::ChebyshevII::Design::LowShelf<5> >::~FilterDesignBase()	16	static
+Filter.h:200:3:Dsp::FilterDesign<DesignClass, Channels, StateType>::FilterDesign() [with DesignClass = Dsp::ChebyshevII::Design::LowShelf<5>; int Channels = 2; StateType = Dsp::DirectFormII]	16	static
+Butterworth.h:152:8:Dsp::Butterworth::HighPass<4>::HighPass()	16	static
+Butterworth.h:208:8:Dsp::Butterworth::Design::TypeI<Dsp::Butterworth::HighPass<4> >::TypeI()	16	static
+Butterworth.h:368:8:Dsp::Butterworth::Design::OrderBase<4, Dsp::Butterworth::Design::TypeI, Dsp::Butterworth::HighPass>::OrderBase()	16	static
+Butterworth.h:394:8:Dsp::Butterworth::Design::HighPass<4>::HighPass()	16	static
+Filter.h:132:7:Dsp::FilterDesignBase<Dsp::Butterworth::Design::HighPass<4> >::FilterDesignBase()	16	static
+Filter.h:132:7:Dsp::FilterDesignBase<Dsp::Butterworth::Design::HighPass<4> >::~FilterDesignBase()	16	static
+Filter.h:132:7:virtual Dsp::FilterDesignBase<Dsp::Butterworth::Design::HighPass<4> >::~FilterDesignBase()	16	static
+Filter.h:200:3:Dsp::FilterDesign<DesignClass, Channels, StateType>::FilterDesign() [with DesignClass = Dsp::Butterworth::Design::HighPass<4>; int Channels = 0; StateType = Dsp::DirectFormII]	16	static
+PoleFilter.h:57:7:Dsp::PoleFilterBase2::PoleFilterBase2()	16	static
+PoleFilter.h:89:7:Dsp::PoleFilterBase<Dsp::ChebyshevI::AnalogLowPass>::PoleFilterBase()	16	static
+ChebyshevI.h:115:8:Dsp::ChebyshevI::BandStopBase::BandStopBase()	16	static
+Cascade.h:86:10:Dsp::Cascade::Stage::Stage()	16	static
+Cascade.h:147:7:Dsp::CascadeStages<3>::CascadeStages()	24	static
+Layout.h:156:7:Dsp::Layout<3>::Layout()	24	static
+Layout.h:156:7:Dsp::Layout<6>::Layout()	24	static
+PoleFilter.h:112:3:Dsp::PoleFilter<BaseClass, MaxAnalogPoles, MaxDigitalPoles>::PoleFilter() [with BaseClass = Dsp::ChebyshevI::BandStopBase; int MaxAnalogPoles = 3; int MaxDigitalPoles = 6]	96	static
+State.h:261:3:Dsp::ChannelsState<Channels, StateType>::ChannelsState() [with int Channels = 2; StateType = Dsp::CascadeStages<3>::State<Dsp::DirectFormII>]	24	static
+Filter.h:257:8:void Dsp::SimpleFilter<FilterClass, Channels, StateType>::process(int, Sample* const*) [with Sample = float; FilterClass = Dsp::ChebyshevI::BandStop<3>; int Channels = 2; StateType = Dsp::DirectFormII]	24	static
+PoleFilter.h:89:7:Dsp::PoleFilterBase<Dsp::Butterworth::AnalogLowPass>::PoleFilterBase()	16	static
+Butterworth.h:92:8:Dsp::Butterworth::HighPassBase::HighPassBase()	16	static
+Cascade.h:147:7:Dsp::CascadeStages<2>::CascadeStages()	24	static
+PoleFilter.h:112:3:Dsp::PoleFilter<BaseClass, MaxAnalogPoles, MaxDigitalPoles>::PoleFilter() [with BaseClass = Dsp::Butterworth::HighPassBase; int MaxAnalogPoles = 3; int MaxDigitalPoles = 3]	96	static
+stl_vector.h:126:7:std::_Vector_base<_Tp, _Alloc>::_Vector_base() [with _Tp = Dsp::PoleZeroPair; _Alloc = std::allocator<Dsp::PoleZeroPair>]	16	static
+stl_vector.h:115:7:std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type& std::_Vector_base<_Tp, _Alloc>::_M_get_Tp_allocator() [with _Tp = Dsp::PoleZeroPair; _Alloc = std::allocator<Dsp::PoleZeroPair>]	16	static
+stl_construct.h:203:5:void std::_Destroy(_ForwardIterator, _ForwardIterator, std::allocator<_T2>&) [with _ForwardIterator = Dsp::PoleZeroPair*; _Tp = Dsp::PoleZeroPair]	24	static
+move.h:73:5:constexpr _Tp&& std::forward(typename std::remove_reference<_From>::type&) [with _Tp = const Dsp::PoleZeroPair&]	16	static
+alloc_traits.h:474:2:) [with _Up = Dsp::PoleZeroPair; _Args = {const Dsp::PoleZeroPair&}; _Tp = Dsp::PoleZeroPair]	24	static
+stl_vector.h:581:7:std::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::end() [with _Tp = Dsp::PoleZeroPair; _Alloc = std::allocator<Dsp::PoleZeroPair>]	24	static
+vector.tcc:394:7:) [with _Args = {const Dsp::PoleZeroPair&}; _Tp = Dsp::PoleZeroPair; _Alloc = std::allocator<Dsp::PoleZeroPair>]	56	static
+Filter.h:132:7:Dsp::FilterDesignBase<Dsp::RBJ::Design::LowPass>::FilterDesignBase()	16	static
+Filter.h:200:3:Dsp::FilterDesign<DesignClass, Channels, StateType>::FilterDesign() [with DesignClass = Dsp::RBJ::Design::LowPass; int Channels = 2; StateType = Dsp::DirectFormII]	16	static
+SmoothedFilter.h:67:8:void Dsp::SmoothedFilterDesign<DesignClass, Channels, StateType>::processBlock(int, Sample* const*) [with Sample = float; DesignClass = Dsp::RBJ::Design::LowPass; int Channels = 2; StateType = Dsp::DirectFormII]	152	static
+Filter.h:132:7:Dsp::FilterDesignBase<Dsp::Butterworth::Design::BandPass<4> >::FilterDesignBase()	16	static
+Filter.h:200:3:Dsp::FilterDesign<DesignClass, Channels, StateType>::FilterDesign() [with DesignClass = Dsp::Butterworth::Design::BandPass<4>; int Channels = 2; StateType = Dsp::DirectFormII]	16	static
+Butterworth.h:99:8:Dsp::Butterworth::BandPassBase::BandPassBase()	16	static
+Cascade.h:147:7:Dsp::CascadeStages<4>::CascadeStages()	24	static
+Layout.h:156:7:Dsp::Layout<4>::Layout()	24	static
+Layout.h:156:7:Dsp::Layout<8>::Layout()	24	static
+PoleFilter.h:112:3:Dsp::PoleFilter<BaseClass, MaxAnalogPoles, MaxDigitalPoles>::PoleFilter() [with BaseClass = Dsp::Butterworth::BandPassBase; int MaxAnalogPoles = 4; int MaxDigitalPoles = 8]	96	static
+PoleFilter.h:89:7:Dsp::PoleFilterBase<Dsp::ChebyshevII::AnalogLowShelf>::PoleFilterBase()	16	static
+ChebyshevII.h:124:8:Dsp::ChebyshevII::LowShelfBase::LowShelfBase()	16	static
+Layout.h:156:7:Dsp::Layout<5>::Layout()	24	static
+PoleFilter.h:112:3:Dsp::PoleFilter<BaseClass, MaxAnalogPoles, MaxDigitalPoles>::PoleFilter() [with BaseClass = Dsp::ChebyshevII::LowShelfBase; int MaxAnalogPoles = 5; int MaxDigitalPoles = 5]	96	static
+PoleFilter.h:112:3:Dsp::PoleFilter<BaseClass, MaxAnalogPoles, MaxDigitalPoles>::PoleFilter() [with BaseClass = Dsp::Butterworth::HighPassBase; int MaxAnalogPoles = 4; int MaxDigitalPoles = 4]	96	static
+Cascade.h:172:20:Dsp::Cascade::Storage Dsp::CascadeStages<MaxStages>::getCascadeStorage() [with int MaxStages = 3]	16	static
+PoleFilter.h:92:8:void Dsp::PoleFilterBase<AnalogPrototype>::setPrototypeStorage(const Dsp::LayoutBase&, const Dsp::LayoutBase&) [with AnalogPrototype = Dsp::ChebyshevI::AnalogLowPass]	32	static
+Layout.h:159:3:Dsp::Layout<MaxPoles>::operator Dsp::LayoutBase() [with int MaxPoles = 3]	16	static
+Layout.h:159:3:Dsp::Layout<MaxPoles>::operator Dsp::LayoutBase() [with int MaxPoles = 6]	16	static
+Cascade.h:154:5:Dsp::CascadeStages<MaxStages>::State<StateType>::State() [with StateType = Dsp::DirectFormII; int MaxStages = 3]	24	static
+State.h:283:8:void Dsp::ChannelsState<Channels, StateType>::process(int, Sample* const*, Filter&) [with Filter = Dsp::ChebyshevI::BandStop<3>; Sample = float; int Channels = 2; StateType = Dsp::CascadeStages<3>::State<Dsp::DirectFormII>]	32	static
+Cascade.h:172:20:Dsp::Cascade::Storage Dsp::CascadeStages<MaxStages>::getCascadeStorage() [with int MaxStages = 2]	16	static
+PoleFilter.h:92:8:void Dsp::PoleFilterBase<AnalogPrototype>::setPrototypeStorage(const Dsp::LayoutBase&, const Dsp::LayoutBase&) [with AnalogPrototype = Dsp::Butterworth::AnalogLowPass]	32	static
+stl_vector.h:88:2:std::_Vector_base<_Tp, _Alloc>::_Vector_impl::_Vector_impl() [with _Tp = Dsp::PoleZeroPair; _Alloc = std::allocator<Dsp::PoleZeroPair>]	16	static
+stl_vector.h:176:7:void std::_Vector_base<_Tp, _Alloc>::_M_deallocate(std::_Vector_base<_Tp, _Alloc>::pointer, std::size_t) [with _Tp = Dsp::PoleZeroPair; _Alloc = std::allocator<Dsp::PoleZeroPair>]	24	static
+stl_construct.h:127:5:void std::_Destroy(_ForwardIterator, _ForwardIterator) [with _ForwardIterator = Dsp::PoleZeroPair*]	16	static
+new_allocator.h:135:2:) [with _Up = Dsp::PoleZeroPair; _Args = {const Dsp::PoleZeroPair&}; _Tp = Dsp::PoleZeroPair]	32	static
+stl_iterator.h:779:7:__gnu_cxx::__normal_iterator<_Iterator, _Container>::__normal_iterator(const _Iterator&) [with _Iterator = Dsp::PoleZeroPair*; _Container = std::vector<Dsp::PoleZeroPair>]	16	static
+stl_vector.h:1497:7:std::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::_M_check_len(std::vector<_Tp, _Alloc>::size_type, const char*) const [with _Tp = Dsp::PoleZeroPair; _Alloc = std::allocator<Dsp::PoleZeroPair>]	40	static
+stl_vector.h:563:7:std::vector<_Tp, _Alloc>::iterator std::vector<_Tp, _Alloc>::begin() [with _Tp = Dsp::PoleZeroPair; _Alloc = std::allocator<Dsp::PoleZeroPair>]	24	static
+stl_iterator.h:962:5:typename __gnu_cxx::__normal_iterator<_Iterator, _Container>::difference_type __gnu_cxx::operator-(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&) [with _Iterator = Dsp::PoleZeroPair*; _Container = std::vector<Dsp::PoleZeroPair>]	24	static
+stl_vector.h:169:7:std::_Vector_base<_Tp, _Alloc>::pointer std::_Vector_base<_Tp, _Alloc>::_M_allocate(std::size_t) [with _Tp = Dsp::PoleZeroPair; _Alloc = std::allocator<Dsp::PoleZeroPair>]	16	static
+stl_iterator.h:844:7:const _Iterator& __gnu_cxx::__normal_iterator<_Iterator, _Container>::base() const [with _Iterator = Dsp::PoleZeroPair*; _Container = std::vector<Dsp::PoleZeroPair>]	16	static
+stl_uninitialized.h:305:5:_ForwardIterator std::__uninitialized_move_if_noexcept_a(_InputIterator, _InputIterator, _ForwardIterator, _Allocator&) [with _InputIterator = Dsp::PoleZeroPair*; _ForwardIterator = Dsp::PoleZeroPair*; _Allocator = std::allocator<Dsp::PoleZeroPair>]	32	static
+Biquad.h:58:10:Dsp::BiquadBase::State<Dsp::DirectFormII>::State()	16	static
+State.h:261:3:Dsp::ChannelsState<Channels, StateType>::ChannelsState() [with int Channels = 2; StateType = Dsp::BiquadBase::State<Dsp::DirectFormII>]	24	static
+Filter.h:204:7:int Dsp::FilterDesign<DesignClass, Channels, StateType>::getNumChannels() [with DesignClass = Dsp::RBJ::Design::LowPass; int Channels = 2; StateType = Dsp::DirectFormII]	16	static
+stl_algobase.h:195:5:const _Tp& std::min(const _Tp&, const _Tp&) [with _Tp = int]	16	static
+RBJ.h:161:8:void Dsp::RBJ::Design::TypeI<FilterClass>::setParams(const Dsp::Params&) [with FilterClass = Dsp::RBJ::LowPass]	40	static
+State.h:276:14:StateType& Dsp::ChannelsState<Channels, StateType>::operator[](int) [with int Channels = 2; StateType = Dsp::BiquadBase::State<Dsp::DirectFormII>]	16	static
+Biquad.h:61:19:Sample Dsp::BiquadBase::State<StateType>::process(Sample, const Dsp::BiquadBase&) [with Sample = float; StateType = Dsp::DirectFormII]	32	static
+Biquad.h:82:8:void Dsp::BiquadBase::process(int, Sample*, StateType&) const [with StateType = Dsp::BiquadBase::State<Dsp::DirectFormII>; Sample = float]	24	static
+State.h:261:3:Dsp::ChannelsState<Channels, StateType>::ChannelsState() [with int Channels = 2; StateType = Dsp::CascadeStages<4>::State<Dsp::DirectFormII>]	24	static
+Cascade.h:172:20:Dsp::Cascade::Storage Dsp::CascadeStages<MaxStages>::getCascadeStorage() [with int MaxStages = 4]	16	static
+Layout.h:159:3:Dsp::Layout<MaxPoles>::operator Dsp::LayoutBase() [with int MaxPoles = 4]	16	static
+Layout.h:159:3:Dsp::Layout<MaxPoles>::operator Dsp::LayoutBase() [with int MaxPoles = 8]	16	static
+PoleFilter.h:92:8:void Dsp::PoleFilterBase<AnalogPrototype>::setPrototypeStorage(const Dsp::LayoutBase&, const Dsp::LayoutBase&) [with AnalogPrototype = Dsp::ChebyshevII::AnalogLowShelf]	32	static
+Layout.h:159:3:Dsp::Layout<MaxPoles>::operator Dsp::LayoutBase() [with int MaxPoles = 5]	16	static
+Cascade.h:77:5:Dsp::Cascade::StateBase<StateType>::StateBase(StateType*) [with StateType = Dsp::DirectFormII]	16	static
+Cascade.h:160:10:void Dsp::CascadeStages<MaxStages>::State<StateType>::reset() [with StateType = Dsp::DirectFormII; int MaxStages = 3]	24	static
+Cascade.h:121:8:void Dsp::Cascade::process(int, Sample*, StateType&) const [with StateType = Dsp::CascadeStages<3>::State<Dsp::DirectFormII>; Sample = float]	24	static
+allocator.h:131:7:std::allocator< <template-parameter-1-1> >::allocator() [with _Tp = Dsp::PoleZeroPair]	16	static
+alloc_traits.h:461:7:static void std::allocator_traits<std::allocator<_CharT> >::deallocate(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, std::allocator_traits<std::allocator<_CharT> >::pointer, std::allocator_traits<std::allocator<_CharT> >::size_type) [with _Tp = Dsp::PoleZeroPair]	24	static
+stl_construct.h:117:9:static void std::_Destroy_aux<true>::__destroy(_ForwardIterator, _ForwardIterator) [with _ForwardIterator = Dsp::PoleZeroPair*]	16	static
+stl_vector.h:675:7:std::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::max_size() const [with _Tp = Dsp::PoleZeroPair; _Alloc = std::allocator<Dsp::PoleZeroPair>]	16	static
+stl_vector.h:670:7:std::vector<_Tp, _Alloc>::size_type std::vector<_Tp, _Alloc>::size() const [with _Tp = Dsp::PoleZeroPair; _Alloc = std::allocator<Dsp::PoleZeroPair>]	16	static
+stl_algobase.h:219:5:const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = unsigned int]	16	static
+alloc_traits.h:435:7:static _Tp* std::allocator_traits<std::allocator<_CharT> >::allocate(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, std::allocator_traits<std::allocator<_CharT> >::size_type) [with _Tp = Dsp::PoleZeroPair]	16	static
+stl_iterator.h:1221:5:_ReturnType std::__make_move_if_noexcept_iterator(_Tp*) [with _Tp = Dsp::PoleZeroPair; _ReturnType = std::move_iterator<Dsp::PoleZeroPair*>]	24	static
+stl_uninitialized.h:287:5:_ForwardIterator std::__uninitialized_copy_a(_InputIterator, _InputIterator, _ForwardIterator, std::allocator<_Tp>&) [with _InputIterator = std::move_iterator<Dsp::PoleZeroPair*>; _ForwardIterator = Dsp::PoleZeroPair*; _Tp = Dsp::PoleZeroPair]	24	static
+State.h:127:10:Sample Dsp::DirectFormII::process1(Sample, const Dsp::BiquadBase&, double) [with Sample = float]	64	static
+Cascade.h:154:5:Dsp::CascadeStages<MaxStages>::State<StateType>::State() [with StateType = Dsp::DirectFormII; int MaxStages = 4]	24	static
+Cascade.h:61:19:Sample Dsp::Cascade::StateBase<StateType>::process(Sample, const Dsp::Cascade&) [with Sample = float; StateType = Dsp::DirectFormII]	64	static
+new_allocator.h:79:7:__gnu_cxx::new_allocator<_Tp>::new_allocator() [with _Tp = Dsp::PoleZeroPair]	16	static
+new_allocator.h:116:7:void __gnu_cxx::new_allocator<_Tp>::deallocate(__gnu_cxx::new_allocator<_Tp>::pointer, __gnu_cxx::new_allocator<_Tp>::size_type) [with _Tp = Dsp::PoleZeroPair]	24	static
+alloc_traits.h:495:7:static std::allocator_traits<std::allocator<_CharT> >::size_type std::allocator_traits<std::allocator<_CharT> >::max_size(const allocator_type&) [with _Tp = Dsp::PoleZeroPair]	16	static
+stl_vector.h:119:7:const _Tp_alloc_type& std::_Vector_base<_Tp, _Alloc>::_M_get_Tp_allocator() const [with _Tp = Dsp::PoleZeroPair; _Alloc = std::allocator<Dsp::PoleZeroPair>]	16	static
+new_allocator.h:99:7:_Tp* __gnu_cxx::new_allocator<_Tp>::allocate(__gnu_cxx::new_allocator<_Tp>::size_type, const void*) [with _Tp = Dsp::PoleZeroPair]	24	static
+stl_iterator.h:1036:7:std::move_iterator<_Iterator>::move_iterator(std::move_iterator<_Iterator>::iterator_type) [with _Iterator = Dsp::PoleZeroPair*]	16	static
+stl_uninitialized.h:115:5:_ForwardIterator std::uninitialized_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = std::move_iterator<Dsp::PoleZeroPair*>; _ForwardIterator = Dsp::PoleZeroPair*]	32	static
+Cascade.h:160:10:void Dsp::CascadeStages<MaxStages>::State<StateType>::reset() [with StateType = Dsp::DirectFormII; int MaxStages = 4]	24	static
+State.h:127:10:Sample Dsp::DirectFormII::process1(Sample, const Dsp::BiquadBase&, double) [with Sample = double]	64	static
+new_allocator.h:129:7:__gnu_cxx::new_allocator<_Tp>::size_type __gnu_cxx::new_allocator<_Tp>::max_size() const [with _Tp = Dsp::PoleZeroPair]	16	static
+stl_uninitialized.h:76:9:static _ForwardIterator std::__uninitialized_copy<_TrivialValueTypes>::__uninit_copy(_InputIterator, _InputIterator, _ForwardIterator) [with _InputIterator = std::move_iterator<Dsp::PoleZeroPair*>; _ForwardIterator = Dsp::PoleZeroPair*; bool _TrivialValueTypes = false]	40	static
+stl_iterator.h:1136:5:bool std::operator!=(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&) [with _Iterator = Dsp::PoleZeroPair*]	16	static
+stl_iterator.h:1057:7:std::move_iterator<_Iterator>& std::move_iterator<_Iterator>::operator++() [with _Iterator = Dsp::PoleZeroPair*]	16	static
+move.h:47:5:constexpr _Tp* std::__addressof(_Tp&) [with _Tp = Dsp::PoleZeroPair]	16	static
+stl_iterator.h:1049:7:std::move_iterator<_Iterator>::reference std::move_iterator<_Iterator>::operator*() const [with _Iterator = Dsp::PoleZeroPair*]	16	static
+move.h:73:5:constexpr _Tp&& std::forward(typename std::remove_reference<_From>::type&) [with _Tp = Dsp::PoleZeroPair]	16	static
+stl_construct.h:74:5:) [with _T1 = Dsp::PoleZeroPair; _Args = {Dsp::PoleZeroPair}]	24	static
+stl_iterator.h:1124:5:bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&) [with _Iterator = Dsp::PoleZeroPair*]	24	static
+stl_iterator.h:1045:7:std::move_iterator<_Iterator>::iterator_type std::move_iterator<_Iterator>::base() const [with _Iterator = Dsp::PoleZeroPair*]	16	static
+Filter.h:197:7:Dsp::FilterDesign<Dsp::Butterworth::Design::HighPass<4> >::~FilterDesign()	16	static
+Filter.h:197:7:virtual Dsp::FilterDesign<Dsp::Butterworth::Design::HighPass<4> >::~FilterDesign()	16	static
+Filter.h:197:7:Dsp::FilterDesign<Dsp::ChebyshevII::Design::LowShelf<5>, 2>::~FilterDesign()	16	static
+Filter.h:197:7:virtual Dsp::FilterDesign<Dsp::ChebyshevII::Design::LowShelf<5>, 2>::~FilterDesign()	16	static
+SmoothedFilter.h:51:7:Dsp::SmoothedFilterDesign<Dsp::Butterworth::Design::BandPass<4>, 2, Dsp::DirectFormII>::~SmoothedFilterDesign()	16	static
+SmoothedFilter.h:51:7:virtual Dsp::SmoothedFilterDesign<Dsp::Butterworth::Design::BandPass<4>, 2, Dsp::DirectFormII>::~SmoothedFilterDesign()	16	static
+SmoothedFilter.h:51:7:Dsp::SmoothedFilterDesign<Dsp::RBJ::Design::LowPass, 2>::~SmoothedFilterDesign()	16	static
+SmoothedFilter.h:51:7:virtual Dsp::SmoothedFilterDesign<Dsp::RBJ::Design::LowPass, 2>::~SmoothedFilterDesign()	16	static
+Documentation.cpp:456:1:void __static_initialization_and_destruction_0(int, int)	16	static
+Filter.h:135:8:Dsp::Kind Dsp::FilterDesignBase<DesignClass>::getKind() const [with DesignClass = Dsp::Butterworth::Design::HighPass<4>]	16	static
+Filter.h:140:21:const string Dsp::FilterDesignBase<DesignClass>::getName() const [with DesignClass = Dsp::Butterworth::Design::HighPass<4>]	32	static
+Filter.h:145:7:int Dsp::FilterDesignBase<DesignClass>::getNumParams() const [with DesignClass = Dsp::Butterworth::Design::HighPass<4>]	16	static
+Filter.h:155:13:Dsp::ParamInfo Dsp::FilterDesignBase<DesignClass>::getParamInfo(int) const [with DesignClass = Dsp::Butterworth::Design::HighPass<4>]	24	static
+Filter.h:172:29:std::vector<Dsp::PoleZeroPair> Dsp::FilterDesignBase<DesignClass>::getPoleZeros() const [with DesignClass = Dsp::Butterworth::Design::HighPass<4>]	16	static
+Filter.h:177:13:Dsp::complex_t Dsp::FilterDesignBase<DesignClass>::response(double) const [with DesignClass = Dsp::Butterworth::Design::HighPass<4>]	32	static
+Filter.h:204:7:int Dsp::FilterDesign<DesignClass, Channels, StateType>::getNumChannels() [with DesignClass = Dsp::Butterworth::Design::HighPass<4>; int Channels = 0; StateType = Dsp::DirectFormII]	16	static
+Filter.h:209:8:void Dsp::FilterDesign<DesignClass, Channels, StateType>::reset() [with DesignClass = Dsp::Butterworth::Design::HighPass<4>; int Channels = 0; StateType = Dsp::DirectFormII]	16	static
+Filter.h:214:8:void Dsp::FilterDesign<DesignClass, Channels, StateType>::process(int, float* const*) [with DesignClass = Dsp::Butterworth::Design::HighPass<4>; int Channels = 0; StateType = Dsp::DirectFormII]	24	static
+Filter.h:220:8:void Dsp::FilterDesign<DesignClass, Channels, StateType>::process(int, double* const*) [with DesignClass = Dsp::Butterworth::Design::HighPass<4>; int Channels = 0; StateType = Dsp::DirectFormII]	24	static
+Filter.h:183:8:void Dsp::FilterDesignBase<DesignClass>::doSetParams(const Dsp::Params&) [with DesignClass = Dsp::Butterworth::Design::HighPass<4>]	16	static
+Filter.h:135:8:Dsp::Kind Dsp::FilterDesignBase<DesignClass>::getKind() const [with DesignClass = Dsp::ChebyshevII::Design::LowShelf<5>]	16	static
+Filter.h:140:21:const string Dsp::FilterDesignBase<DesignClass>::getName() const [with DesignClass = Dsp::ChebyshevII::Design::LowShelf<5>]	32	static
+Filter.h:145:7:int Dsp::FilterDesignBase<DesignClass>::getNumParams() const [with DesignClass = Dsp::ChebyshevII::Design::LowShelf<5>]	16	static
+Filter.h:155:13:Dsp::ParamInfo Dsp::FilterDesignBase<DesignClass>::getParamInfo(int) const [with DesignClass = Dsp::ChebyshevII::Design::LowShelf<5>]	24	static
+Filter.h:172:29:std::vector<Dsp::PoleZeroPair> Dsp::FilterDesignBase<DesignClass>::getPoleZeros() const [with DesignClass = Dsp::ChebyshevII::Design::LowShelf<5>]	16	static
+Filter.h:177:13:Dsp::complex_t Dsp::FilterDesignBase<DesignClass>::response(double) const [with DesignClass = Dsp::ChebyshevII::Design::LowShelf<5>]	32	static
+Filter.h:204:7:int Dsp::FilterDesign<DesignClass, Channels, StateType>::getNumChannels() [with DesignClass = Dsp::ChebyshevII::Design::LowShelf<5>; int Channels = 2; StateType = Dsp::DirectFormII]	16	static
+Filter.h:209:8:void Dsp::FilterDesign<DesignClass, Channels, StateType>::reset() [with DesignClass = Dsp::ChebyshevII::Design::LowShelf<5>; int Channels = 2; StateType = Dsp::DirectFormII]	16	static
+Filter.h:214:8:void Dsp::FilterDesign<DesignClass, Channels, StateType>::process(int, float* const*) [with DesignClass = Dsp::ChebyshevII::Design::LowShelf<5>; int Channels = 2; StateType = Dsp::DirectFormII]	24	static
+Filter.h:220:8:void Dsp::FilterDesign<DesignClass, Channels, StateType>::process(int, double* const*) [with DesignClass = Dsp::ChebyshevII::Design::LowShelf<5>; int Channels = 2; StateType = Dsp::DirectFormII]	24	static
+Filter.h:183:8:void Dsp::FilterDesignBase<DesignClass>::doSetParams(const Dsp::Params&) [with DesignClass = Dsp::ChebyshevII::Design::LowShelf<5>]	16	static
+Filter.h:135:8:Dsp::Kind Dsp::FilterDesignBase<DesignClass>::getKind() const [with DesignClass = Dsp::Butterworth::Design::BandPass<4>]	16	static
+Filter.h:140:21:const string Dsp::FilterDesignBase<DesignClass>::getName() const [with DesignClass = Dsp::Butterworth::Design::BandPass<4>]	32	static
+Filter.h:145:7:int Dsp::FilterDesignBase<DesignClass>::getNumParams() const [with DesignClass = Dsp::Butterworth::Design::BandPass<4>]	16	static
+Filter.h:155:13:Dsp::ParamInfo Dsp::FilterDesignBase<DesignClass>::getParamInfo(int) const [with DesignClass = Dsp::Butterworth::Design::BandPass<4>]	24	static
+Filter.h:172:29:std::vector<Dsp::PoleZeroPair> Dsp::FilterDesignBase<DesignClass>::getPoleZeros() const [with DesignClass = Dsp::Butterworth::Design::BandPass<4>]	16	static
+Filter.h:177:13:Dsp::complex_t Dsp::FilterDesignBase<DesignClass>::response(double) const [with DesignClass = Dsp::Butterworth::Design::BandPass<4>]	32	static
+Filter.h:204:7:int Dsp::FilterDesign<DesignClass, Channels, StateType>::getNumChannels() [with DesignClass = Dsp::Butterworth::Design::BandPass<4>; int Channels = 2; StateType = Dsp::DirectFormII]	16	static
+Filter.h:209:8:void Dsp::FilterDesign<DesignClass, Channels, StateType>::reset() [with DesignClass = Dsp::Butterworth::Design::BandPass<4>; int Channels = 2; StateType = Dsp::DirectFormII]	16	static
+SmoothedFilter.h:117:8:void Dsp::SmoothedFilterDesign<DesignClass, Channels, StateType>::process(int, float* const*) [with DesignClass = Dsp::Butterworth::Design::BandPass<4>; int Channels = 2; StateType = Dsp::DirectFormII]	24	static
+SmoothedFilter.h:122:8:void Dsp::SmoothedFilterDesign<DesignClass, Channels, StateType>::process(int, double* const*) [with DesignClass = Dsp::Butterworth::Design::BandPass<4>; int Channels = 2; StateType = Dsp::DirectFormII]	24	static
+SmoothedFilter.h:128:8:void Dsp::SmoothedFilterDesign<DesignClass, Channels, StateType>::doSetParams(const Dsp::Params&) [with DesignClass = Dsp::Butterworth::Design::BandPass<4>; int Channels = 2; StateType = Dsp::DirectFormII]	24	static
+Filter.h:214:8:void Dsp::FilterDesign<DesignClass, Channels, StateType>::process(int, float* const*) [with DesignClass = Dsp::Butterworth::Design::BandPass<4>; int Channels = 2; StateType = Dsp::DirectFormII]	24	static
+Filter.h:220:8:void Dsp::FilterDesign<DesignClass, Channels, StateType>::process(int, double* const*) [with DesignClass = Dsp::Butterworth::Design::BandPass<4>; int Channels = 2; StateType = Dsp::DirectFormII]	24	static
+Filter.h:183:8:void Dsp::FilterDesignBase<DesignClass>::doSetParams(const Dsp::Params&) [with DesignClass = Dsp::Butterworth::Design::BandPass<4>]	16	static
+Filter.h:135:8:Dsp::Kind Dsp::FilterDesignBase<DesignClass>::getKind() const [with DesignClass = Dsp::RBJ::Design::LowPass]	16	static
+Filter.h:140:21:const string Dsp::FilterDesignBase<DesignClass>::getName() const [with DesignClass = Dsp::RBJ::Design::LowPass]	32	static
+Filter.h:145:7:int Dsp::FilterDesignBase<DesignClass>::getNumParams() const [with DesignClass = Dsp::RBJ::Design::LowPass]	16	static
+Filter.h:155:13:Dsp::ParamInfo Dsp::FilterDesignBase<DesignClass>::getParamInfo(int) const [with DesignClass = Dsp::RBJ::Design::LowPass]	24	static
+Filter.h:172:29:std::vector<Dsp::PoleZeroPair> Dsp::FilterDesignBase<DesignClass>::getPoleZeros() const [with DesignClass = Dsp::RBJ::Design::LowPass]	16	static
+Filter.h:177:13:Dsp::complex_t Dsp::FilterDesignBase<DesignClass>::response(double) const [with DesignClass = Dsp::RBJ::Design::LowPass]	32	static
+Filter.h:209:8:void Dsp::FilterDesign<DesignClass, Channels, StateType>::reset() [with DesignClass = Dsp::RBJ::Design::LowPass; int Channels = 2; StateType = Dsp::DirectFormII]	16	static
+SmoothedFilter.h:122:8:void Dsp::SmoothedFilterDesign<DesignClass, Channels, StateType>::process(int, double* const*) [with DesignClass = Dsp::RBJ::Design::LowPass; int Channels = 2; StateType = Dsp::DirectFormII]	24	static
+SmoothedFilter.h:128:8:void Dsp::SmoothedFilterDesign<DesignClass, Channels, StateType>::doSetParams(const Dsp::Params&) [with DesignClass = Dsp::RBJ::Design::LowPass; int Channels = 2; StateType = Dsp::DirectFormII]	24	static
+Filter.h:214:8:void Dsp::FilterDesign<DesignClass, Channels, StateType>::process(int, float* const*) [with DesignClass = Dsp::RBJ::Design::LowPass; int Channels = 2; StateType = Dsp::DirectFormII]	24	static
+Filter.h:220:8:void Dsp::FilterDesign<DesignClass, Channels, StateType>::process(int, double* const*) [with DesignClass = Dsp::RBJ::Design::LowPass; int Channels = 2; StateType = Dsp::DirectFormII]	24	static
+Filter.h:183:8:void Dsp::FilterDesignBase<DesignClass>::doSetParams(const Dsp::Params&) [with DesignClass = Dsp::RBJ::Design::LowPass]	16	static
+Butterworth.h:370:19:const Dsp::ParamInfo Dsp::Butterworth::Design::OrderBase<MaxOrder, TypeClass, FilterClass>::getParamInfo_1() const [with int MaxOrder = 4; TypeClass = Dsp::Butterworth::Design::TypeI; FilterClass = Dsp::Butterworth::HighPass]	64	static
+State.h:305:8:void Dsp::ChannelsState<0, StateType>::reset() [with StateType = Dsp::CascadeStages<2>::State<Dsp::DirectFormII>]	24	static
+State.h:312:8:void Dsp::ChannelsState<0, StateType>::process(int, Sample* const*, FilterDesign&) [with FilterDesign = Dsp::Butterworth::Design::HighPass<4>; Sample = float; StateType = Dsp::CascadeStages<2>::State<Dsp::DirectFormII>]	32	static
+State.h:312:8:void Dsp::ChannelsState<0, StateType>::process(int, Sample* const*, FilterDesign&) [with FilterDesign = Dsp::Butterworth::Design::HighPass<4>; Sample = double; StateType = Dsp::CascadeStages<2>::State<Dsp::DirectFormII>]	32	static
+Butterworth.h:210:8:void Dsp::Butterworth::Design::TypeI<FilterClass>::setParams(const Dsp::Params&) [with FilterClass = Dsp::Butterworth::HighPass<4>]	32	static
+ChebyshevII.h:399:19:const Dsp::ParamInfo Dsp::ChebyshevII::Design::OrderBase<MaxOrder, TypeClass, FilterClass>::getParamInfo_1() const [with int MaxOrder = 5; TypeClass = Dsp::ChebyshevII::Design::TypeIII; FilterClass = Dsp::ChebyshevII::LowShelf]	64	static
+State.h:270:8:void Dsp::ChannelsState<Channels, StateType>::reset() [with int Channels = 2; StateType = Dsp::CascadeStages<3>::State<Dsp::DirectFormII>]	24	static
+State.h:283:8:void Dsp::ChannelsState<Channels, StateType>::process(int, Sample* const*, Filter&) [with Filter = Dsp::ChebyshevII::Design::LowShelf<5>; Sample = float; int Channels = 2; StateType = Dsp::CascadeStages<3>::State<Dsp::DirectFormII>]	32	static
+State.h:283:8:void Dsp::ChannelsState<Channels, StateType>::process(int, Sample* const*, Filter&) [with Filter = Dsp::ChebyshevII::Design::LowShelf<5>; Sample = double; int Channels = 2; StateType = Dsp::CascadeStages<3>::State<Dsp::DirectFormII>]	32	static
+ChebyshevII.h:301:8:void Dsp::ChebyshevII::Design::TypeIII<FilterClass>::setParams(const Dsp::Params&) [with FilterClass = Dsp::ChebyshevII::LowShelf<5>]	48	static
+Butterworth.h:370:19:const Dsp::ParamInfo Dsp::Butterworth::Design::OrderBase<MaxOrder, TypeClass, FilterClass>::getParamInfo_1() const [with int MaxOrder = 4; TypeClass = Dsp::Butterworth::Design::TypeII; FilterClass = Dsp::Butterworth::BandPass]	64	static
+State.h:270:8:void Dsp::ChannelsState<Channels, StateType>::reset() [with int Channels = 2; StateType = Dsp::CascadeStages<4>::State<Dsp::DirectFormII>]	24	static
+SmoothedFilter.h:67:8:void Dsp::SmoothedFilterDesign<DesignClass, Channels, StateType>::processBlock(int, Sample* const*) [with Sample = float; DesignClass = Dsp::Butterworth::Design::BandPass<4>; int Channels = 2; StateType = Dsp::DirectFormII]	152	static
+SmoothedFilter.h:67:8:void Dsp::SmoothedFilterDesign<DesignClass, Channels, StateType>::processBlock(int, Sample* const*) [with Sample = double; DesignClass = Dsp::Butterworth::Design::BandPass<4>; int Channels = 2; StateType = Dsp::DirectFormII]	152	static
+State.h:283:8:void Dsp::ChannelsState<Channels, StateType>::process(int, Sample* const*, Filter&) [with Filter = Dsp::Butterworth::Design::BandPass<4>; Sample = float; int Channels = 2; StateType = Dsp::CascadeStages<4>::State<Dsp::DirectFormII>]	32	static
+State.h:283:8:void Dsp::ChannelsState<Channels, StateType>::process(int, Sample* const*, Filter&) [with Filter = Dsp::Butterworth::Design::BandPass<4>; Sample = double; int Channels = 2; StateType = Dsp::CascadeStages<4>::State<Dsp::DirectFormII>]	32	static
+Butterworth.h:242:8:void Dsp::Butterworth::Design::TypeII<FilterClass>::setParams(const Dsp::Params&) [with FilterClass = Dsp::Butterworth::BandPass<4>]	40	static
+State.h:270:8:void Dsp::ChannelsState<Channels, StateType>::reset() [with int Channels = 2; StateType = Dsp::BiquadBase::State<Dsp::DirectFormII>]	24	static
+SmoothedFilter.h:67:8:void Dsp::SmoothedFilterDesign<DesignClass, Channels, StateType>::processBlock(int, Sample* const*) [with Sample = double; DesignClass = Dsp::RBJ::Design::LowPass; int Channels = 2; StateType = Dsp::DirectFormII]	152	static
+State.h:283:8:void Dsp::ChannelsState<Channels, StateType>::process(int, Sample* const*, Filter&) [with Filter = Dsp::RBJ::Design::LowPass; Sample = float; int Channels = 2; StateType = Dsp::BiquadBase::State<Dsp::DirectFormII>]	32	static
+State.h:283:8:void Dsp::ChannelsState<Channels, StateType>::process(int, Sample* const*, Filter&) [with Filter = Dsp::RBJ::Design::LowPass; Sample = double; int Channels = 2; StateType = Dsp::BiquadBase::State<Dsp::DirectFormII>]	32	static
+Cascade.h:121:8:void Dsp::Cascade::process(int, Sample*, StateType&) const [with StateType = Dsp::CascadeStages<3>::State<Dsp::DirectFormII>; Sample = double]	24	static
+State.h:276:14:StateType& Dsp::ChannelsState<Channels, StateType>::operator[](int) [with int Channels = 2; StateType = Dsp::CascadeStages<4>::State<Dsp::DirectFormII>]	16	static
+Cascade.h:121:8:void Dsp::Cascade::process(int, Sample*, StateType&) const [with StateType = Dsp::CascadeStages<4>::State<Dsp::DirectFormII>; Sample = float]	24	static
+Cascade.h:61:19:Sample Dsp::Cascade::StateBase<StateType>::process(Sample, const Dsp::Cascade&) [with Sample = double; StateType = Dsp::DirectFormII]	64	static
+Cascade.h:121:8:void Dsp::Cascade::process(int, Sample*, StateType&) const [with StateType = Dsp::CascadeStages<4>::State<Dsp::DirectFormII>; Sample = double]	24	static
+Biquad.h:61:19:Sample Dsp::BiquadBase::State<StateType>::process(Sample, const Dsp::BiquadBase&) [with Sample = double; StateType = Dsp::DirectFormII]	32	static
+Biquad.h:82:8:void Dsp::BiquadBase::process(int, Sample*, StateType&) const [with StateType = Dsp::BiquadBase::State<Dsp::DirectFormII>; Sample = double]	24	static
+Documentation.cpp:456:1:cpp)	8	static
+Documentation.cpp:456:1:cpp)	8	static

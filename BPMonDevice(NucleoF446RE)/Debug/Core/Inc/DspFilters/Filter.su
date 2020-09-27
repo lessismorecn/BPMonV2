@@ -1,0 +1,14 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+Params.h:85:8:void Dsp::Params::clear()	24	static
+Params.h:91:11:double& Dsp::Params::operator[](int)	16	static
+Params.h:96:17:const double& Dsp::Params::operator[](int) const	16	static
+Params.h:140:11:Dsp::ParamID Dsp::ParamInfo::getId() const	16	static
+Params.h:157:10:double Dsp::ParamInfo::getDefaultValue() const	16	static
+Filter.h:75:10:double Dsp::Filter::getParam(int) const	24	static
+Filter.h:81:8:void Dsp::Filter::setParam(int, double)	32	static
+Filter.cpp:41:8:Dsp::Params Dsp::Filter::getDefaultParams() const	96	static
+Filter.cpp:53:1:Dsp::Filter::~Filter()	16	static
+Filter.cpp:53:1:virtual Dsp::Filter::~Filter()	16	static
+Filter.cpp:57:5:int Dsp::Filter::findParamId(int)	88	static
+Filter.cpp:73:6:void Dsp::Filter::setParamById(int, double)	96	static
+Filter.cpp:87:6:void Dsp::Filter::copyParamsFrom(const Dsp::Filter*)	240	static

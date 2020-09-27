@@ -1,0 +1,43 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+complex:1209:26:constexpr std::complex<double>::complex(double, double)	32	static
+complex:1229:7:constexpr double std::complex<double>::real() const	16	static
+complex:1233:7:constexpr double std::complex<double>::imag() const	16	static
+complex:1257:7:std::complex<double>& std::complex<double>::operator=(double)	24	static
+complex:1264:7:std::complex<double>& std::complex<double>::operator+=(double)	32	static
+limits:1715:7:static constexpr double std::numeric_limits<double>::infinity()	8	static
+MathSupplement.h:64:24:const complex_t Dsp::infinity()	32	static
+MathSupplement.h:113:13:bool Dsp::is_nan(Ty) [with Ty = std::complex<double>]	32	static
+Types.h:51:12:Dsp::ComplexPair::ComplexPair(const complex_t&)	32	static
+Types.h:57:3:Dsp::ComplexPair::ComplexPair(const complex_t&, const complex_t&)	24	static
+Types.h:68:8:bool Dsp::ComplexPair::isReal() const	16	static
+Types.h:100:3:Dsp::PoleZeroPair::PoleZeroPair(const complex_t&, const complex_t&)	24	static
+Types.h:106:3:Dsp::PoleZeroPair::PoleZeroPair(const complex_t&, const complex_t&, const complex_t&, const complex_t&)	24	static
+Layout.h:54:3:Dsp::LayoutBase::LayoutBase()	16	static
+Layout.h:74:8:void Dsp::LayoutBase::reset()	16	static
+Types.h:45:8:Dsp::ComplexPair& Dsp::ComplexPair::operator=(Dsp::ComplexPair&&)	16	static
+Types.h:92:8:Dsp::PoleZeroPair& Dsp::PoleZeroPair::operator=(Dsp::PoleZeroPair&&)	16	static
+Layout.h:89:8:void Dsp::LayoutBase::add(const complex_t&, const complex_t&)	96	static
+Layout.h:97:8:void Dsp::LayoutBase::addPoleZeroConjugatePairs(Dsp::complex_t, Dsp::complex_t)	160	static
+Layout.h:138:8:void Dsp::LayoutBase::setNormal(double, double)	32	static
+RootFinder.h:79:14:Dsp::complex_t* Dsp::RootFinderBase::coef()	16	static
+RootFinder.h:85:14:Dsp::complex_t* Dsp::RootFinderBase::root()	16	static
+Bessel.cpp:45:15:double Dsp::Bessel::fact(int)	40	static
+cmath:415:5:constexpr typename __gnu_cxx::__promote_2<_Tp, _Up>::__type std::pow(_Tp, _Up) [with _Tp = double; _Up = int]	32	static
+Bessel.cpp:58:15:double Dsp::Bessel::reversebessel(int, int)	32	static
+Bessel.cpp:66:1:Dsp::Bessel::AnalogLowPass::AnalogLowPass()	16	static
+Bessel.cpp:72:6:void Dsp::Bessel::AnalogLowPass::design(int, Dsp::Bessel::WorkspaceBase*)	96	static
+Bessel.cpp:100:1:Dsp::Bessel::AnalogLowShelf::AnalogLowShelf()	16	static
+Bessel.cpp:106:6:void Dsp::Bessel::AnalogLowShelf::design(int, double, Dsp::Bessel::WorkspaceBase*)	2600	static
+Bessel.cpp:147:6:void Dsp::Bessel::LowPassBase::setup(int, double, double, Dsp::Bessel::WorkspaceBase*)	56	static
+Bessel.cpp:161:6:void Dsp::Bessel::HighPassBase::setup(int, double, double, Dsp::Bessel::WorkspaceBase*)	56	static
+Bessel.cpp:175:6:void Dsp::Bessel::BandPassBase::setup(int, double, double, double, Dsp::Bessel::WorkspaceBase*)	128	static
+Bessel.cpp:191:6:void Dsp::Bessel::BandStopBase::setup(int, double, double, double, Dsp::Bessel::WorkspaceBase*)	112	static
+Bessel.cpp:207:6:void Dsp::Bessel::LowShelfBase::setup(int, double, double, double, Dsp::Bessel::WorkspaceBase*)	64	static
+MathSupplement.h:107:13:bool Dsp::is_nan(Ty) [with Ty = double]	24	static
+move.h:73:5:constexpr _Tp&& std::forward(typename std::remove_reference<_From>::type&) [with _Tp = double]	16	static
+stl_pair.h:314:18:constexpr std::pair<_T1, _T2>::pair(const _T1&, _U2&&) [with _U2 = double; typename std::enable_if<std::_PCC<true, _T1, _T2>::_CopyMovePair<true, _T1, _U2>(), bool>::type <anonymous> = 1; _T1 = std::complex<double>; _T2 = std::complex<double>]	32	static
+stl_pair.h:249:17:constexpr std::pair<_T1, _T2>::pair(const _T1&, const _T2&) [with _U1 = std::complex<double>; _U2 = std::complex<double>; typename std::enable_if<(std::_PCC<true, _T1, _T2>::_ConstructiblePair<_U1, _U2>() && std::_PCC<true, _T1, _T2>::_ImplicitlyConvertiblePair<_U1, _U2>()), bool>::type <anonymous> = 1; _T1 = std::complex<double>; _T2 = std::complex<double>]	24	static
+complex:679:5:std::complex<_Tp> std::conj(const std::complex<_Tp>&) [with _Tp = double]	48	static
+move.h:73:5:constexpr _Tp&& std::forward(typename std::remove_reference<_From>::type&) [with _Tp = std::complex<double>]	16	static
+stl_pair.h:384:7:std::pair<_T1, _T2>& std::pair<_T1, _T2>::operator=(typename std::conditional<std::__and_<std::is_move_assignable<_Tp>, std::is_move_assignable<_T2> >::value, std::pair<_T1, _T2>&&, std::__nonesuch_no_braces&&>::type) [with _T1 = std::complex<double>; _T2 = std::complex<double>]	24	static
+RootFinder.h:113:3:Dsp::RootFinder<maxdegree>::RootFinder() [with int maxdegree = 50]	16	static
