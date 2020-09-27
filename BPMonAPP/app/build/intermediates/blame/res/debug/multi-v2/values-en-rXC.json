@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\pc\\Documents\\BPMonAPP\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rXC\\values-en-rXC.xml",
+            "outputFile": "C:\\Users\\pc\\Documents\\BP Mon Projects\\BPMon\\BPMonV2\\BPMonAPP\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rXC\\values-en-rXC.xml",
             "map": [
                 {
                     "source": "C:\\Users\\pc\\.gradle\\caches\\transforms-2\\files-2.1\\57556e8dc21b03442616b95ca91d5015\\core-1.0.0\\res\\values-en-rXC\\values-en-rXC.xml",
