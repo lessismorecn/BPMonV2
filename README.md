@@ -2,8 +2,11 @@
 Bluetooth 24Hour Blood Pressure Monitor
 
 This project comprises of work completed for my final year digital systems project of a Bluetooth 24 Hour Blood Pressure Monitor.
+
 The android application has been tested on a Cubot X18 and X19S.
-The device project can be open and build with STM32CubeIDE Version: 1.4.2.
+
+The device project can be open and built with STM32CubeIDE Version: 1.4.2.
+
 The microcontroller currently used and tested with is an ST Nucleo F446RE with components: 
 
 Pressure sensor: NXP MP3V5050GP.
